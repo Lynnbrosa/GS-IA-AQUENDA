@@ -1,5 +1,14 @@
 # Dados
 
+Os dados são todos públicos e reais. Há duas tabelas, uma para cada parte do trabalho:
+
+| Arquivo | Linha = | Usado em |
+|---|---|---|
+| `sinan_violencia_lgbt_sao_paulo_2015_2024.csv` | uma notificação de violência | parte 1, violência de repetição (XGBoost) |
+| `municipios_sp_desertos_de_cuidado.csv` | um município do estado de SP | parte 2, desertos de cuidado (KMeans + PCA) |
+
+# Parte 1 · Notificações de violência
+
 ## Fonte
 
 **SINAN: Violência Interpessoal/Autoprovocada**, do Ministério da Saúde. É a ficha que qualquer serviço de saúde preenche quando atende alguém em situação de violência. Os microdados são públicos e não têm nome nem documento de ninguém.
@@ -80,3 +89,48 @@ python ml/preparar_dados.py
 ```
 
 O script baixa os `.dbc` que faltarem para `ml/dados/brutos/` (cerca de 240 MB, fora do Git), converte para `.dbf` com o `pyreaddbc`, filtra o recorte e grava o CSV. Leva uns 10 minutos, porque cada ano tem centenas de milhares de fichas do Brasil inteiro.
+
+# Parte 2 · Municípios e desertos de cuidado
+
+`municipios_sp_desertos_de_cuidado.csv` tem uma linha para cada um dos **645 municípios** do estado de São Paulo. É gerado por `preparar_municipios.py`.
+
+## Fontes
+
+| Fonte | O que vem | Link | Período |
+|---|---|---|---|
+| SINAN (DATASUS) | notificações de violência interpessoal pelo município de **residência** da vítima, no total e só com vítima LGBTQIAPN+ (mesmo critério da parte 1) | ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/ | 2022 a 2024 |
+| CNES (DATASUS): estabelecimentos (`STSP2412`) | municípios com **CAPS** (`TP_UNID` = 70) | ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST/ | dez/2024 |
+| CNES: habilitações (`HBSP2412`) | municípios com serviço habilitado no **processo transexualizador** (`SGRUPHAB` 3001, 3002, 3003) | ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/HB/ | dez/2024 |
+| CNES: serviços especializados (`SRSP2412`) | municípios com **atenção às pessoas em situação de violência sexual** (`SERV_ESP` 165) | ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/SR/ | dez/2024 |
+| IBGE, Censo 2022 (SIDRA, tabela 4709) | população residente | https://apisidra.ibge.gov.br/values/t/4709/n6/in%20n3%2035/v/93/p/last | 2022 |
+| IBGE, Censo 2022 (SIDRA, tabela 10295, variável 13431) | rendimento nominal médio mensal domiciliar per capita | https://apisidra.ibge.gov.br/values/t/10295/n6/in%20n3%2035/v/13431/p/all | 2022 |
+| IBGE, malha municipal | contorno de cada município, para achar o centro | https://servicodados.ibge.gov.br/api/v3/malhas/estados/35?formato=application/vnd.geo+json&intrarregiao=municipio | atual |
+
+Os códigos do CNES foram conferidos nas tabelas auxiliares do DATASUS (`TAB_CNES.zip`: `HABILITA.DBF` e `SRN_ORD_N.dbf`).
+
+## Colunas
+
+| Coluna | Como é calculada |
+|---|---|
+| `cod7`, `municipio`, `populacao`, `renda_per_capita` | IBGE |
+| `lat`, `lon` | centro do maior polígono do município (fórmula do shoelace) |
+| `tem_caps`, `tem_trans`, `tem_violencia_sexual` | se o município tem o serviço no CNES |
+| `violencia_total`, `violencia_lgbt` | notificações de violência interpessoal (sem lesão autoprovocada) de 2022 a 2024 |
+| `taxa_violencia_100mil`, `taxa_violencia_lgbt_100mil` | notificações por ano por 100 mil moradores |
+| `dist_caps_km`, `dist_trans_km`, `dist_violencia_sexual_km` | distância em linha reta do centro do município ao centro do município mais próximo com o serviço; 0 se o próprio município tem |
+
+O que a tabela mostra sobre o estado:
+
+- 285 dos 645 municípios têm CAPS;
+- 49 têm serviço de atenção à violência sexual;
+- **só 2 têm serviço habilitado no processo transexualizador pelo SUS:** São Paulo e São José do Rio Preto. A distância mediana até um deles é de 149 km, e a maior chega a 405 km.
+
+Ambulatórios trans municipais ou estaduais sem habilitação federal não aparecem no CNES com esse código, e esse é um limite da medida.
+
+## Como gerar de novo
+
+```bash
+python ml/preparar_municipios.py
+```
+
+O script reaproveita os `.dbc` do SINAN que o `preparar_dados.py` baixou, baixa os três arquivos do CNES e consulta as APIs do IBGE. A contagem do SINAN por município fica em cache em `brutos/`, fora do Git.

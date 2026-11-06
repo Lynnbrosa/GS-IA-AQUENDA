@@ -1,0 +1,646 @@
+cod7,municipio,nome,parte,taxa_violencia_lgbt_100mil,taxa_violencia_100mil,dist_caps_km,dist_trans_km,dist_violencia_sexual_km,renda_per_capita
+3500204,Adolfo,deserto de cuidado,treino,7.661,183.866,34.412,63.03,45.98,1514.8
+3500758,Alambari,deserto de cuidado,treino,5.428,92.276,16.635,124.465,43.903,1317.23
+3500907,Altair,deserto de cuidado,teste,19.318,144.886,23.596,40.145,40.145,1313.69
+3501004,Altinópolis,deserto de cuidado,treino,9.91,441.987,25.677,206.276,45.767,1391.26
+3501103,Alto Alegre,deserto de cuidado,treino,8.678,69.426,24.933,125.216,66.614,1349.61
+3501152,Alumínio,deserto de cuidado,treino,23.12,308.267,5.919,65.373,18.728,1523.42
+3501806,Américo de Campos,deserto de cuidado,treino,45.429,340.716,29.33,70.828,53.294,1580.65
+3502309,Anhembi,deserto de cuidado,treino,17.624,528.728,30.731,182.083,30.731,1188.66
+3503109,Arandu,deserto de cuidado,treino,9.683,116.195,20.96,251.781,70.53,1251.83
+3503356,Arco-Íris,deserto de cuidado,treino,16.308,65.232,22.402,155.229,65.35,1178.32
+3503505,Areias,deserto de cuidado,treino,18.638,130.463,28.922,225.732,66.894,1093.27
+3503703,Ariranha,deserto de cuidado,treino,8.77,258.704,14.074,73.814,38.985,1546.55
+3503950,Aspásia,deserto de cuidado,treino,18.096,144.77,21.88,158.491,47.62,1361.65
+3504206,Auriflama,deserto de cuidado,treino,19.476,297.01,39.95,128.334,51.947,1494.63
+3504305,Avaí,deserto de cuidado,teste,22.306,126.403,21.072,154.624,21.072,1349.49
+3504701,Balbinos,deserto de cuidado,treino,17.151,137.21,10.795,121.784,45.707,1703.84
+3506409,Bilac,deserto de cuidado,teste,4.554,54.652,27.295,135.934,97.893,1639.46
+3506508,Birigui,deserto de cuidado,treino,6.444,120.75,28.16,115.146,101.568,1732.98
+3506904,Bofete,deserto de cuidado,teste,3.187,315.488,27.702,176.699,34.741,1480.67
+3507100,Bom Jesus dos Perdões,deserto de cuidado,treino,7.574,213.578,12.601,55.476,18.011,1604.07
+3507308,Boracéia,deserto de cuidado,teste,7.07,63.627,12.599,163.667,35.923,1269.35
+3507456,Borebi,deserto de cuidado,treino,12.287,184.298,17.054,213.133,49.631,1282.36
+3507704,Braúna,deserto de cuidado,treino,12.447,161.812,30.239,132.156,78.622,1369.89
+3508306,Cabrália Paulista,deserto de cuidado,treino,7.754,403.195,11.647,188.365,36.767,1242.79
+3509304,Cajobi,deserto de cuidado,treino,7.3,43.797,22.581,54.611,35.081,1564.43
+3509452,Campina do Monte Alegre,deserto de cuidado,treino,11.197,33.591,18.977,182.357,79.736,1336.83
+3509809,Campos Novos Paulista,deserto de cuidado,treino,6.819,791.053,40.971,212.63,42.406,1334.45
+3509908,Cananéia,deserto de cuidado,treino,10.85,512.654,33.358,205.217,41.031,1281.29
+3510153,Canitar,deserto de cuidado,treino,5.305,111.412,7.644,250.96,79.262,1266.24
+3510708,Cardoso,deserto de cuidado,treino,8.814,352.578,25.32,101.754,41.691,1515.63
+3511003,Castilho,deserto de cuidado,treino,5.006,178.539,25.879,230.025,123.996,1419.26
+3511201,Catiguá,deserto de cuidado,treino,4.76,57.118,12.058,43.322,42.467,1398.86
+3511409,Cerqueira César,deserto de cuidado,treino,6.211,273.262,25.935,252.604,73.037,1459.9
+3512001,Colina,deserto de cuidado,treino,12.622,284.9,23.323,80.059,23.323,1572.33
+3512100,Colômbia,deserto de cuidado,teste,5.028,387.188,28.329,88.731,78.373,1282.7
+3512506,Coroados,deserto de cuidado,treino,12.346,117.284,21.687,117.064,95.319,1464.68
+3512605,Coronel Macedo,deserto de cuidado,treino,7.788,77.882,13.187,270.714,49.959,1281.73
+3512704,Corumbataí,deserto de cuidado,treino,7.946,119.19,15.462,185.074,44.029,1543.11
+3512902,Cosmorama,deserto de cuidado,treino,22.938,275.261,16.408,58.535,56.359,1404.7
+3513108,Cravinhos,deserto de cuidado,teste,9.014,99.156,16.052,177.827,16.052,1576.75
+3513207,Cristais Paulista,deserto de cuidado,treino,3.595,64.711,18.689,209.128,20.661,1581.65
+3514205,Dolcinópolis,deserto de cuidado,treino,15.103,256.759,18.487,143.329,30.566,1359.18
+3514601,Dumont,deserto de cuidado,treino,28.156,225.249,13.976,151.035,17.396,1673.48
+3514908,Elias Fausto,deserto de cuidado,treino,9.417,163.851,14.12,97.401,26.814,1295.02
+3515194,Espírito Santo do Turvo,deserto de cuidado,treino,24.056,344.8,20.895,208.679,56.11,1193.58
+3557303,Estiva Gerbi,deserto de cuidado,treino,2.951,206.581,8.911,159.901,40.983,1645.48
+3515202,Estrela d'Oeste,deserto de cuidado,treino,10.619,283.176,13.44,124.674,13.44,1667.09
+3515350,Euclides da Cunha Paulista,deserto de cuidado,treino,16.827,294.464,24.714,384.751,25.612,1077.55
+3515608,Fernando Prestes,deserto de cuidado,treino,11.22,56.098,17.633,89.268,45.349,1600.05
+3515905,Floreal,deserto de cuidado,treino,12.197,109.769,28.954,84.187,46.306,1699.56
+3516101,Florínea,deserto de cuidado,treino,17.312,649.182,16.103,269.874,41.993,1361.28
+3516853,Gavião Peixoto,deserto de cuidado,teste,7.089,28.357,20.494,145.348,27.646,1489.75
+3516903,General Salgado,deserto de cuidado,treino,16.162,161.624,41.728,111.489,43.321,1735.05
+3517000,Getulina,deserto de cuidado,treino,6.516,58.64,31.725,129.838,44.127,1290.17
+3517901,Guaraci,deserto de cuidado,treino,16.103,238.325,35.83,59.941,59.941,1492.66
+3518859,Guatapará,deserto de cuidado,teste,13.661,487.25,26.185,160.328,31.291,1428.08
+3518909,Guzolândia,deserto de cuidado,treino,31.402,329.722,41.242,142.316,59.784,1208.8
+3519204,Iacri,deserto de cuidado,treino,5.437,27.184,18.429,171.847,62.3,1368.52
+3519253,Iaras,deserto de cuidado,treino,8.323,366.209,27.513,226.15,62.646,1284.97
+3519501,Ibirarema,deserto de cuidado,treino,20.882,334.116,27.688,235.905,42.266,1429.78
+3519808,Icém,deserto de cuidado,treino,51.157,409.259,19.395,51.093,51.093,1574.21
+3519907,Iepê,deserto de cuidado,teste,4.375,424.378,31.812,270.451,42.809,1401.72
+3520426,Ilha Comprida,deserto de cuidado,treino,7.452,516.68,24.267,172.484,24.267,1392.2
+3520608,Indiana,deserto de cuidado,teste,6.549,32.744,13.936,246.619,17.486,1627.06
+3520707,Indiaporã,deserto de cuidado,treino,49.566,677.406,35.722,133.584,35.722,1550.8
+3521101,Ipeúna,deserto de cuidado,treino,73.196,322.061,11.99,174.12,25.951,1722.53
+3521507,Irapuã,deserto de cuidado,treino,4.854,266.977,25.583,52.337,37.43,1334.09
+3522802,Itaporanga,deserto de cuidado,treino,7.1,94.663,27.506,285.926,47.858,1283.91
+3523503,Itatinga,deserto de cuidado,treino,6.992,454.466,28.465,209.287,36.459,1388.79
+3523602,Itirapina,deserto de cuidado,treino,6.193,177.525,25.476,193.158,30.571,1659.02
+3523800,Itobi,deserto de cuidado,treino,8.286,186.428,12.493,212.818,35.362,1439.31
+3524600,Jacupiranga,deserto de cuidado,treino,4.142,155.308,14.1,189.747,23.324,1256.95
+3524907,Jambeiro,deserto de cuidado,treino,10.422,302.225,19.751,104.212,30.245,1751.77
+3525706,José Bonifácio,deserto de cuidado,teste,9.099,161.057,40.779,54.629,39.794,1697.31
+3526100,Juquiá,deserto de cuidado,treino,3.886,120.477,26.164,119.548,55.525,1160.51
+3525805,Júlio Mesquita,deserto de cuidado,teste,15.672,172.387,30.155,138.029,30.155,1240.61
+3526605,Lavrinhas,deserto de cuidado,teste,4.648,88.319,12.609,219.545,62.604,1164.45
+3526506,Lavínia,deserto de cuidado,treino,6.881,75.687,12.733,178.508,98.725,1527.78
+3527009,Lindóia,deserto de cuidado,teste,4.752,114.058,6.656,126.167,25.565,1690.27
+3527702,Luiziânia,deserto de cuidado,treino,14.181,56.726,32.095,141.825,67.782,1314.88
+3527801,Lupércio,deserto de cuidado,treino,8.373,184.208,25.54,187.201,32.437,1073.89
+3528106,Macaubal,deserto de cuidado,treino,13.367,191.596,33.197,64.304,56.907,1516.91
+3528205,Macedônia,deserto de cuidado,treino,8.411,50.467,21.761,116.033,21.761,1428.56
+3528304,Magda,deserto de cuidado,treino,10.532,94.787,29.466,93.524,36.856,1547.56
+3528601,Manduri,deserto de cuidado,treino,6.754,114.814,17.008,250.053,87.962,1661.83
+3529104,Marinópolis,deserto de cuidado,treino,17.921,232.975,28.901,157.647,61.862,1441.96
+3529500,Mendonça,deserto de cuidado,teste,5.412,443.795,41.147,49.311,32.276,1756.32
+3529609,Meridiano,deserto de cuidado,treino,14.582,87.489,17.411,97.176,17.411,1579.55
+3530003,Mira Estrela,deserto de cuidado,treino,10.663,138.622,39.043,123.298,39.043,1291.65
+3530904,Mombuca,deserto de cuidado,treino,8.956,214.938,10.579,124.769,30.651,1274.03
+3531100,Mongaguá,deserto de cuidado,treino,8.071,191.011,15.501,47.29,31.048,1287.82
+3531407,Monte Aprazível,deserto de cuidado,treino,5.984,115.2,26.165,42.738,40.296,1691.5
+3531506,Monte Azul Paulista,deserto de cuidado,treino,3.673,220.374,18.315,71.331,18.315,1799.99
+3532207,Narandiba,deserto de cuidado,treino,5.835,274.228,13.977,297.723,17.449,1397.19
+3532405,Nazaré Paulista,deserto de cuidado,teste,1.83,270.809,16.491,58.118,24.064,1356.62
+3533304,Nova Luzitânia,deserto de cuidado,treino,11.75,82.247,20.543,93.365,66.849,1254.56
+3533601,Nuporanga,deserto de cuidado,treino,31.57,428.449,18.336,169.608,33.565,1765.43
+3533700,Ocauçu,deserto de cuidado,treino,7.696,153.929,29.446,192.257,29.446,1349.57
+3534500,Oscar Bressane,deserto de cuidado,treino,26.991,40.486,30.539,190.744,31.201,1469.93
+3534757,Ouroeste,deserto de cuidado,treino,16.191,336.766,40.78,146.161,40.78,1715.52
+3535002,Palestina,deserto de cuidado,treino,14.523,508.307,20.025,55.014,55.014,1569.56
+3535101,Palmares Paulista,deserto de cuidado,treino,17.271,379.965,14.747,64.598,37.506,1390.3
+3535200,Palmeira d'Oeste,deserto de cuidado,teste,14.976,292.036,26.461,150.29,52.063,1515.31
+3535309,Palmital,deserto de cuidado,treino,3.402,86.761,20.634,243.059,32.599,1582.67
+3535903,Paranapuã,deserto de cuidado,teste,16.538,215.0,24.738,152.35,39.626,1515.68
+3535705,Paraíso,deserto de cuidado,treino,5.465,366.18,24.432,66.23,27.943,1744.46
+3536109,Pardinho,deserto de cuidado,treino,9.32,330.864,27.121,189.069,27.121,1633.36
+3536406,Paulicéia,deserto de cuidado,treino,8.38,142.468,30.538,256.412,99.704,1196.6
+3536604,Paulo de Faria,deserto de cuidado,treino,4.505,135.135,18.852,82.055,82.055,1373.91
+3536802,Pedra Bela,deserto de cuidado,treino,5.084,91.505,20.186,99.121,37.439,1372.0
+3537206,Pedro de Toledo,deserto de cuidado,treino,11.819,410.72,20.051,77.432,56.465,1125.29
+3537503,Pereiras,deserto de cuidado,treino,15.261,331.922,12.997,147.887,48.451,1397.46
+3538204,Pinhalzinho,deserto de cuidado,treino,2.19,157.646,18.058,96.911,24.745,1382.52
+3538501,Piquete,deserto de cuidado,treino,34.694,512.41,17.872,191.197,40.375,1321.99
+3539004,Pirangi,deserto de cuidado,treino,3.062,128.617,23.3,78.613,23.753,1696.01
+3539103,Pirapora do Bom Jesus,deserto de cuidado,treino,16.331,424.605,10.426,45.072,23.793,1199.19
+3539400,Piratininga,deserto de cuidado,teste,2.206,108.11,18.527,181.7,20.095,2157.6
+3539608,Planalto,deserto de cuidado,teste,30.379,326.574,28.026,64.097,52.401,1363.79
+3540101,Pongaí,deserto de cuidado,treino,19.637,19.637,19.678,103.692,63.152,1724.87
+3540259,Pontalinda,deserto de cuidado,treino,8.077,234.23,18.771,127.222,32.288,1217.5
+3540309,Pontes Gestal,deserto de cuidado,treino,13.965,321.184,17.584,80.569,56.147,1493.44
+3541059,Pratânia,deserto de cuidado,treino,6.503,318.637,20.616,228.624,24.283,1368.51
+3541109,Presidente Alves,deserto de cuidado,treino,26.288,166.491,18.544,147.627,34.814,1520.64
+3541802,Queiroz,deserto de cuidado,treino,10.209,91.884,22.342,144.498,50.013,1374.71
+3541901,Queluz,deserto de cuidado,treino,14.558,363.941,23.423,229.248,71.28,1157.07
+3542008,Quintana,deserto de cuidado,treino,4.736,42.626,15.529,178.795,40.707,1452.52
+3542107,Rafard,deserto de cuidado,treino,7.436,107.827,12.794,116.425,41.252,1616.59
+3542305,Redenção da Serra,deserto de cuidado,treino,7.417,148.346,18.359,122.553,18.359,1108.67
+3542503,Reginópolis,deserto de cuidado,treino,8.701,82.659,14.508,122.616,41.217,1654.56
+3543006,Ribeirão Branco,deserto de cuidado,treino,8.948,322.113,18.893,226.433,0.0,1023.29
+3543600,Rifaina,deserto de cuidado,treino,16.465,90.557,16.452,215.957,55.611,1599.06
+3543709,Rincão,deserto de cuidado,treino,32.974,941.599,14.184,163.561,26.73,1396.8
+3543808,Rinópolis,deserto de cuidado,treino,14.4,334.809,16.98,171.912,70.081,1359.86
+3544905,Sales Oliveira,deserto de cuidado,treino,5.842,151.9,15.762,156.325,18.145,1668.02
+3545001,Salesópolis,deserto de cuidado,treino,8.771,403.456,18.508,82.471,30.606,1326.05
+3545159,Saltinho,deserto de cuidado,treino,16.338,118.45,14.196,140.478,17.013,1814.85
+3545407,Salto Grande,deserto de cuidado,treino,11.05,508.287,14.367,238.674,55.677,1320.5
+3545605,Santa Adélia,deserto de cuidado,teste,14.267,109.383,15.415,80.486,52.853,1450.23
+3545704,Santa Albertina,deserto de cuidado,treino,5.214,41.712,34.588,167.389,54.622,1489.31
+3546009,Santa Branca,deserto de cuidado,treino,2.385,200.358,19.143,83.924,37.671,1448.84
+3546108,Santa Clara d'Oeste,deserto de cuidado,treino,12.83,192.456,19.914,180.842,69.097,1467.76
+3546207,Santa Cruz da Conceição,deserto de cuidado,treino,7.794,85.73,16.29,189.993,45.201,1761.73
+3546900,Santa Lúcia,deserto de cuidado,treino,55.952,498.904,6.443,165.968,18.339,1388.3
+3547007,Santa Maria da Serra,deserto de cuidado,treino,19.073,356.03,23.671,195.307,23.671,1491.6
+3547106,Santa Mercedes,deserto de cuidado,treino,11.276,22.553,20.77,253.599,85.532,1549.88
+3547403,Santa Rita d'Oeste,deserto de cuidado,teste,12.197,121.966,21.768,170.437,58.543,1350.25
+3547650,Santa Salete,deserto de cuidado,treino,20.263,141.844,17.818,154.105,45.731,1589.31
+3547908,Santo Antônio da Alegria,deserto de cuidado,treino,9.84,172.202,43.188,226.79,43.188,1366.48
+3548054,Santo Antônio do Aracanguá,deserto de cuidado,treino,7.956,111.39,26.712,124.739,72.845,1499.77
+3548203,Santo Antônio do Pinhal,deserto de cuidado,treino,9.346,397.215,22.063,133.008,35.056,1728.57
+3551108,Sarapuí,deserto de cuidado,treino,3.215,70.724,18.984,115.415,40.879,1495.18
+3551207,Sarutaiá,deserto de cuidado,treino,17.999,35.997,14.379,273.907,93.244,1165.06
+3551405,Serra Azul,deserto de cuidado,treino,7.846,201.37,12.78,196.454,30.59,1340.01
+3551801,Sete Barras,deserto de cuidado,treino,15.711,259.23,27.913,147.957,45.55,1004.06
+3551900,Severínia,deserto de cuidado,treino,16.008,141.786,20.012,58.673,33.758,1360.31
+3548609,São Bento do Sapucaí,deserto de cuidado,treino,14.277,128.491,15.65,145.806,48.478,1710.26
+3550001,São Luiz do Paraitinga,deserto de cuidado,treino,25.797,396.633,27.679,149.476,30.86,1465.87
+3550506,São Pedro do Turvo,deserto de cuidado,treino,32.331,424.923,25.388,213.634,59.85,1416.03
+3550803,São Sebastião da Grama,deserto de cuidado,treino,6.385,185.167,19.241,210.484,44.722,1428.62
+3550902,São Simão,deserto de cuidado,treino,7.439,235.58,21.317,199.885,38.196,1642.69
+3553005,Taguaí,deserto de cuidado,teste,7.893,205.225,17.775,280.675,67.966,1290.18
+3553104,Taiaçu,deserto de cuidado,treino,35.23,534.32,14.136,93.475,21.425,1340.52
+3553203,Taiúva,deserto de cuidado,teste,5.091,96.722,17.074,103.785,22.988,1644.9
+3553856,Taquarivaí,deserto de cuidado,treino,4.848,247.237,19.312,209.686,35.825,1253.48
+3554201,Tejupá,deserto de cuidado,treino,8.077,32.308,18.524,273.281,81.842,1042.07
+3554706,Torrinha,deserto de cuidado,treino,17.854,199.964,18.729,204.888,27.82,1525.18
+3554805,Tremembé,deserto de cuidado,treino,7.817,213.654,16.408,132.587,19.102,1946.41
+3554953,Tuiuti,deserto de cuidado,treino,4.918,54.097,12.099,90.97,18.534,1438.03
+3555703,União Paulista,deserto de cuidado,treino,41.589,894.157,37.304,55.774,46.915,1330.0
+3555802,Urânia,deserto de cuidado,treino,18.869,290.577,13.543,150.003,39.358,1502.78
+3556107,Valentim Gentil,deserto de cuidado,teste,7.093,156.051,12.534,88.091,25.16,1475.19
+3556800,Viradouro,deserto de cuidado,treino,7.657,346.465,15.047,109.167,21.544,1399.34
+3556909,Vista Alegre do Alto,deserto de cuidado,teste,4.111,45.217,15.086,84.811,29.811,1473.26
+3500402,Águas da Prata,deserto de cuidado,treino,4.523,153.797,13.606,193.153,62.137,1684.99
+3500550,Águas de Santa Bárbara,deserto de cuidado,treino,4.644,185.779,30.584,229.369,68.565,1946.69
+3501202,Álvares Florence,deserto de cuidado,treino,42.571,212.857,20.291,81.49,37.729,1429.27
+3501400,Álvaro de Carvalho,deserto de cuidado,treino,41.597,339.712,16.544,148.409,27.773,1137.02
+3500303,Aguaí,intermediário,teste,5.197,230.731,0.0,182.143,62.256,1321.67
+3500709,Agudos,intermediário,treino,14.154,314.933,0.0,198.864,35.16,1590.76
+3501608,Americana,intermediário,treino,9.133,371.073,0.0,121.637,14.684,2358.27
+3501707,Américo Brasiliense,intermediário,treino,14.133,354.341,0.0,171.75,17.321,1233.06
+3502101,Andradina,intermediário,treino,4.461,102.036,0.0,204.899,125.754,1774.02
+3502200,Angatuba,intermediário,teste,2.775,77.707,0.0,185.927,63.865,1526.22
+3502507,Aparecida,intermediário,treino,17.399,252.797,0.0,165.661,6.806,1468.76
+3502705,Apiaí,intermediário,treino,2.712,153.21,0.0,236.409,18.893,1148.15
+3502804,Araçatuba,intermediário,teste,10.66,129.753,0.0,131.224,98.545,2088.68
+3502903,Araçoiaba da Serra,intermediário,treino,3.082,63.701,0.0,102.587,22.606,1993.37
+3503802,Artur Nogueira,intermediário,treino,5.83,102.353,0.0,130.77,19.258,1649.8
+3504503,Avaré,intermediário,treino,2.873,89.076,0.0,237.723,49.64,1769.85
+3505203,Bariri,intermediário,treino,5.275,70.686,0.0,155.94,46.79,1755.66
+3505302,Barra Bonita,intermediário,treino,1.941,225.16,0.0,205.227,43.327,1853.96
+3505500,Barretos,intermediário,treino,7.076,191.316,0.0,79.946,50.06,1844.44
+3505807,Bastos,intermediário,teste,0.0,176.72,0.0,192.312,41.66,1449.37
+3505906,Batatais,intermediário,treino,21.118,432.634,0.0,185.613,29.811,1826.35
+3506359,Bertioga,intermediário,treino,22.33,167.736,0.0,64.268,33.027,1511.97
+3506607,Biritiba Mirim,intermediário,treino,7.861,715.337,0.0,64.337,29.771,1243.58
+3507001,Boituva,intermediário,teste,9.823,217.744,0.0,111.883,30.436,1819.01
+3507407,Borborema,intermediário,treino,2.343,229.627,0.0,95.139,71.825,1614.88
+3507605,Bragança Paulista,intermediário,teste,5.279,134.607,0.0,79.159,27.345,1941.5
+3507902,Brotas,intermediário,teste,30.686,507.713,0.0,210.552,35.517,1482.87
+3508009,Buri,intermediário,treino,3.292,181.07,0.0,196.318,59.654,996.87
+3508108,Buritama,intermediário,treino,1.937,116.212,0.0,91.908,80.387,1627.85
+3508405,Cabreúva,intermediário,treino,13.472,236.115,0.0,58.224,36.803,1480.46
+3508603,Cachoeira Paulista,intermediário,treino,6.336,88.709,0.0,199.345,40.733,1383.47
+3509254,Cajati,intermediário,treino,11.69,433.69,0.0,200.278,36.25,1206.25
+3509700,Campos do Jordão,intermediário,teste,24.836,586.14,0.0,155.034,35.241,1626.97
+3510302,Capela do Alto,intermediário,teste,10.204,444.619,0.0,112.135,29.097,1062.65
+3510401,Capivari,intermediário,treino,17.976,276.291,0.0,112.583,29.807,1570.15
+3510203,Capão Bonito,intermediário,treino,2.877,44.601,0.0,172.253,55.05,1240.46
+3510500,Caraguatatuba,intermediário,treino,13.346,774.803,0.0,119.064,18.124,1578.4
+3510807,Casa Branca,intermediário,treino,11.87,229.083,0.0,210.466,39.259,1545.95
+3511102,Catanduva,intermediário,treino,3.167,65.635,0.0,55.377,51.958,1898.84
+3508504,Caçapava,intermediário,treino,7.623,144.141,0.0,113.112,21.667,1632.59
+3511508,Cerquilho,intermediário,treino,5.221,155.125,0.0,124.297,44.346,1839.05
+3511706,Charqueada,intermediário,teste,8.583,154.49,0.0,167.386,18.485,1454.08
+3512407,Cordeirópolis,intermediário,treino,5.439,252.917,0.0,151.533,40.57,1684.38
+3513405,Cruzeiro,intermediário,teste,6.225,126.288,0.0,207.624,52.197,1498.46
+3513603,Cunha,intermediário,treino,6.03,165.837,0.0,186.43,38.934,1243.82
+3513702,Descalvado,intermediário,treino,3.149,52.484,0.0,213.703,22.388,1726.15
+3514106,Dois Córregos,intermediário,treino,6.8,112.879,0.0,206.561,46.315,1357.54
+3514502,Duartina,intermediário,treino,5.408,302.834,0.0,177.519,33.458,1624.7
+3514809,Eldorado,intermediário,teste,2.551,147.933,0.0,186.584,43.763,1096.71
+3515152,Engenheiro Coelho,intermediário,treino,5.111,52.813,0.0,139.899,26.514,1609.27
+3515186,Espírito Santo do Pinhal,intermediário,treino,6.697,188.366,0.0,162.38,48.412,1838.17
+3516705,Garça,intermediário,treino,22.956,421.911,0.0,162.856,30.785,1612.63
+3517604,Guapiara,intermediário,treino,5.858,337.805,0.0,203.427,23.109,1032.99
+3518206,Guararapes,intermediário,treino,5.369,207.239,0.0,148.992,103.231,1575.63
+3518305,Guararema,intermediário,treino,14.94,430.059,0.0,65.016,32.783,1601.96
+3518404,Guaratinguetá,intermediário,teste,8.471,108.152,0.0,173.241,17.203,1872.42
+3518503,Guareí,intermediário,teste,8.881,150.98,0.0,162.836,61.731,1385.89
+3518602,Guariba,intermediário,treino,67.559,286.237,0.0,134.918,44.298,1320.05
+3518701,Guarujá,intermediário,teste,1.854,61.768,0.0,54.234,33.499,1416.67
+3517703,Guará,intermediário,treino,7.166,343.975,0.0,168.58,41.546,1332.26
+3519105,Iacanga,intermediário,teste,3.194,137.332,0.0,125.728,41.622,1415.72
+3519600,Ibitinga,intermediário,treino,0.0,91.616,0.0,122.628,58.777,1437.98
+3519709,Ibiúna,intermediário,treino,2.645,60.402,0.0,60.199,29.792,1324.95
+3520103,Igarapava,intermediário,treino,19.075,504.858,0.0,192.754,63.192,1501.48
+3520004,Igaraçu do Tietê,intermediário,treino,4.328,239.476,0.0,210.035,37.544,1348.69
+3520301,Iguape,intermediário,teste,4.58,277.062,0.0,130.665,40.47,1336.34
+3520400,Ilhabela,intermediário,treino,25.763,702.277,0.0,136.21,30.345,1970.57
+3520509,Indaiatuba,intermediário,treino,5.083,148.975,0.0,82.374,25.157,2601.91
+3520905,Ipaussu,intermediário,treino,2.431,128.841,0.0,253.495,98.032,1441.01
+3521002,Iperó,intermediário,treino,8.228,183.768,0.0,103.524,19.828,1304.0
+3521309,Ipuã,intermediário,treino,20.756,212.167,0.0,140.805,68.798,1452.66
+3521408,Iracemápolis,intermediário,treino,1.517,86.493,0.0,147.871,30.856,1866.43
+3521705,Itaberá,intermediário,teste,1.854,146.435,0.0,254.833,28.445,1205.06
+3521903,Itajobi,intermediário,teste,0.0,90.254,0.0,69.486,61.437,1572.71
+3522109,Itanhaém,intermediário,treino,3.853,67.57,0.0,52.788,39.632,1374.2
+3522307,Itapetininga,intermediário,treino,5.704,163.508,0.0,149.809,71.521,1671.4
+3522406,Itapeva,intermediário,teste,3.343,108.104,0.0,228.137,38.978,1443.07
+3522604,Itapira,intermediário,treino,16.199,536.873,0.0,135.78,26.646,1823.28
+3522901,Itapuí,intermediário,treino,19.523,378.261,0.0,175.318,43.487,1421.09
+3521804,Itaí,intermediário,treino,2.648,111.199,0.0,245.996,72.423,1400.91
+3523909,Itu,intermediário,treino,3.963,158.306,0.0,74.967,23.834,1874.09
+3524006,Itupeva,intermediário,treino,3.304,110.929,0.0,70.031,29.459,2035.47
+3524105,Ituverava,intermediário,treino,6.21,147.277,0.0,169.201,51.256,1788.4
+3524303,Jaboticabal,intermediário,treino,5.105,116.957,0.0,120.507,38.323,1948.36
+3524402,Jacareí,intermediário,treino,6.382,300.35,0.0,77.608,23.942,1799.5
+3524808,Jales,intermediário,teste,2.734,84.058,0.0,136.803,28.225,2077.24
+3525201,Jarinu,intermediário,treino,6.216,170.508,0.0,59.224,15.584,1368.78
+3526209,Juquitiba,intermediário,teste,6.082,253.004,0.0,51.352,29.637,1076.35
+3526407,Laranjal Paulista,intermediário,treino,19.04,133.277,0.0,142.556,33.54,1556.49
+3526704,Leme,intermediário,treino,6.792,141.604,0.0,178.454,61.33,1577.91
+3526803,Lençóis Paulista,intermediário,treino,16.039,383.931,0.0,216.04,42.255,1795.57
+3526902,Limeira,intermediário,treino,1.713,112.95,0.0,137.572,27.849,1932.42
+3527108,Lins,intermediário,treino,3.12,120.355,0.0,100.776,66.135,1864.07
+3527207,Lorena,intermediário,treino,7.857,164.987,0.0,188.156,29.188,1673.5
+3527306,Louveira,intermediário,treino,5.143,144.656,0.0,69.148,14.95,2025.97
+3528403,Mairinque,intermediário,teste,7.329,177.904,0.0,60.501,23.276,1607.36
+3528809,Maracaí,intermediário,treino,5.261,63.126,0.0,251.203,24.816,1465.29
+3529708,Miguelópolis,intermediário,treino,5.144,54.867,0.0,146.929,86.273,1416.73
+3529807,Mineiros do Tietê,intermediário,treino,8.905,207.777,0.0,208.787,44.255,1304.7
+3529906,Miracatu,intermediário,teste,7.187,174.275,0.0,97.075,70.771,1125.4
+3530102,Mirandópolis,intermediário,teste,7.147,92.914,0.0,186.733,103.789,1683.93
+3530706,Mogi Guaçu,intermediário,treino,3.471,86.339,0.0,161.95,41.879,1747.34
+3530805,Mogi Mirim,intermediário,treino,6.843,178.987,0.0,137.371,17.234,2026.17
+3531308,Monte Alto,intermediário,treino,9.109,304.088,0.0,99.748,35.519,1861.15
+3531803,Monte Mor,intermediário,treino,3.609,86.604,0.0,102.127,12.773,1367.63
+3531902,Morro Agudo,intermediário,treino,11.933,150.36,0.0,125.761,46.405,1397.0
+3532009,Morungaba,intermediário,treino,4.859,182.216,0.0,84.983,13.232,1680.58
+3533403,Nova Odessa,intermediário,treino,5.375,98.894,0.0,115.611,12.762,1934.32
+3533502,Novo Horizonte,intermediário,treino,5.219,123.508,0.0,75.211,61.938,1693.96
+3534203,Orindiúva,intermediário,treino,0.0,143.869,0.0,66.334,66.334,1567.59
+3534708,Ourinhos,intermediário,teste,7.695,135.937,0.0,244.901,69.952,1834.77
+3535606,Paraibuna,intermediário,treino,0.0,279.24,0.0,104.277,30.142,1390.47
+3536703,Pederneiras,intermediário,treino,14.872,284.799,0.0,174.776,27.624,1528.3
+3537107,Pedreira,intermediário,teste,2.32,84.277,0.0,102.082,11.095,1769.5
+3537305,Penápolis,intermediário,treino,7.566,168.615,0.0,102.166,86.302,1737.74
+3537404,Pereira Barreto,intermediário,treino,4.15,120.357,0.0,182.288,97.119,1619.12
+3537602,Peruíbe,intermediário,treino,8.29,172.636,0.0,79.609,62.609,1407.11
+3537800,Piedade,intermediário,treino,5.664,191.303,0.0,81.805,35.838,1446.28
+3537909,Pilar do Sul,intermediário,teste,4.828,224.483,0.0,112.431,52.413,1571.17
+3538006,Pindamonhangaba,intermediário,treino,7.052,222.05,0.0,148.7,17.226,1610.98
+3538105,Pindorama,intermediário,treino,4.584,77.935,0.0,65.148,51.487,1694.67
+3538600,Piracaia,intermediário,treino,1.281,42.261,0.0,75.582,38.574,1603.66
+3538907,Pirajuí,intermediário,treino,19.319,252.627,0.0,129.119,44.354,1707.81
+3539202,Pirapozinho,intermediário,treino,7.89,180.159,0.0,299.429,4.895,1546.97
+3540200,Pontal,intermediário,treino,3.545,244.635,0.0,135.787,24.936,1384.14
+3540606,Porto Feliz,intermediário,treino,7.67,169.331,0.0,100.088,27.249,1626.03
+3540705,Porto Ferreira,intermediário,treino,5.698,339.987,0.0,216.757,44.074,1719.41
+3540754,Potim,intermediário,treino,13.077,300.772,0.0,165.478,12.037,1092.82
+3541307,Presidente Epitácio,intermediário,treino,8.438,213.475,0.0,317.333,75.023,1428.42
+3541505,Presidente Venceslau,intermediário,treino,5.682,191.282,0.0,279.853,55.76,1954.88
+3541604,Promissão,intermediário,treino,8.539,115.757,0.0,97.006,73.376,1506.74
+3541703,Quatá,intermediário,treino,12.662,98.762,0.0,205.42,28.425,1377.34
+3542602,Registro,intermediário,treino,32.807,402.578,0.0,152.32,19.512,1533.08
+3543907,Rio Claro,intermediário,treino,8.275,199.585,0.0,170.681,40.806,2056.67
+3544004,Rio das Pedras,intermediário,teste,4.256,81.929,0.0,131.399,23.434,1563.69
+3545209,Salto,intermediário,treino,3.474,108.448,0.0,84.211,34.745,1902.87
+3545308,Salto de Pirapora,intermediário,treino,3.81,86.861,0.0,94.227,24.91,1536.7
+3545803,Santa Bárbara d'Oeste,intermediário,teste,10.545,167.806,0.0,123.144,23.819,1877.28
+3546405,Santa Cruz do Rio Pardo,intermediário,treino,28.71,554.096,0.0,224.924,76.829,1738.78
+3546603,Santa Fé do Sul,intermediário,treino,15.328,215.554,0.0,177.018,69.739,1938.25
+3546702,Santa Gertrudes,intermediário,treino,1.412,176.471,0.0,157.97,38.488,1593.01
+3546801,Santa Isabel,intermediário,treino,5.015,203.734,0.0,57.572,25.35,1412.6
+3547502,Santa Rita do Passa Quatro,intermediário,teste,2.685,100.672,0.0,215.779,45.609,1753.02
+3547601,Santa Rosa de Viterbo,intermediário,treino,9.967,172.284,0.0,220.941,34.986,1588.13
+3551603,Serra Negra,intermediário,teste,5.575,88.089,0.0,117.684,16.77,1836.39
+3551504,Serrana,intermediário,teste,2.277,79.71,0.0,187.277,21.916,1283.46
+3551702,Sertãozinho,intermediário,treino,3.152,216.728,0.0,144.74,21.722,1797.64
+3552106,Socorro,intermediário,treino,2.492,33.232,0.0,115.844,29.683,1787.74
+3552403,Sumaré,intermediário,treino,6.081,105.29,0.0,109.251,6.825,1586.3
+3549102,São João da Boa Vista,intermediário,treino,12.246,307.952,0.0,186.216,63.45,1961.78
+3550100,São Manuel,intermediário,treino,3.576,87.604,0.0,221.045,21.378,1448.66
+3550209,São Miguel Arcanjo,intermediário,treino,7.283,139.413,0.0,139.901,74.95,1302.75
+3553708,Taquaritinga,intermediário,teste,1.276,50.389,0.0,110.234,53.773,1620.23
+3553807,Taquarituba,intermediário,teste,1.369,61.602,0.0,263.71,61.283,1515.25
+3553955,Tarumã,intermediário,treino,11.199,371.814,0.0,253.858,26.005,1307.96
+3554003,Tatuí,intermediário,treino,5.917,123.176,0.0,128.236,44.465,1558.09
+3554300,Teodoro Sampaio,intermediário,treino,7.517,157.85,0.0,360.06,48.075,1337.3
+3554508,Tietê,intermediário,teste,1.77,47.792,0.0,127.163,36.572,2011.6
+3555000,Tupã,intermediário,treino,2.086,77.17,0.0,176.561,55.128,1848.89
+3555406,Ubatuba,intermediário,treino,15.057,422.309,0.0,168.329,56.808,1615.62
+3556305,Valparaíso,intermediário,treino,11.001,281.892,0.0,168.496,98.076,1439.26
+3556404,Vargem Grande do Sul,intermediário,teste,5.814,162.792,0.0,200.326,47.694,1350.12
+3557006,Votorantim,intermediário,teste,4.169,91.722,0.0,77.549,13.247,1837.4
+3557105,Votuporanga,intermediário,teste,6.899,170.402,0.0,75.682,37.173,1789.36
+3556503,Várzea Paulista,intermediário,treino,10.941,204.714,0.0,51.105,23.332,1446.57
+3500501,Águas de Lindóia,intermediário,treino,1.859,200.781,0.0,130.507,32.04,1742.52
+3500105,Adamantina,longe e sem notificação (com CAPS),treino,0.0,28.829,0.0,196.176,55.097,1868.26
+3503307,Araras,longe e sem notificação (com CAPS),treino,0.764,30.566,0.0,160.256,47.778,1910.5
+3504909,Bananal,longe e sem notificação (com CAPS),teste,0.0,73.561,0.0,257.414,101.377,1340.96
+3506300,Bernardino de Campos,longe e sem notificação (com CAPS),teste,0.0,80.411,0.0,249.025,94.437,1515.11
+3506706,Boa Esperança do Sul,longe e sem notificação (com CAPS),treino,0.0,7.705,29.936,156.774,33.337,1261.94
+3508801,Cafelândia,longe e sem notificação (com CAPS),treino,0.0,26.02,0.0,105.683,66.776,1524.12
+3508900,Caiabu,longe e sem notificação (com CAPS),treino,0.0,0.0,13.201,231.778,13.201,1359.73
+3511607,Cesário Lange,longe e sem notificação (com CAPS),teste,0.0,27.999,0.0,137.296,54.735,1256.04
+3512209,Conchal,longe e sem notificação (com CAPS),treino,2.372,33.214,0.0,150.758,32.503,1349.53
+3512803,Cosmópolis,longe e sem notificação (com CAPS),treino,1.673,32.902,0.0,123.323,11.242,1614.71
+3510005,Cândido Mota,longe e sem notificação (com CAPS),treino,1.132,28.298,0.0,249.152,22.917,1531.52
+3514304,Dourado,longe e sem notificação (com CAPS),teste,0.0,16.469,30.204,180.78,39.598,1694.59
+3514403,Dracena,longe e sem notificação (com CAPS),treino,0.733,27.855,0.0,245.925,54.696,1886.73
+3515129,Emilianópolis,longe e sem notificação (com CAPS),treino,0.0,0.0,25.267,245.846,25.267,1334.16
+3516507,Gabriel Monteiro,longe e sem notificação (com CAPS),treino,0.0,0.0,27.298,147.499,94.785,1710.43
+3517406,Guaíra,longe e sem notificação (com CAPS),treino,0.0,33.945,0.0,116.56,71.403,1685.85
+3519006,Herculândia,longe e sem notificação (com CAPS),teste,0.0,14.612,0.0,166.806,46.94,1172.66
+3520442,Ilha Solteira,longe e sem notificação (com CAPS),treino,1.305,48.273,0.0,201.934,103.291,2147.45
+3520806,Inúbia Paulista,longe e sem notificação (com CAPS),treino,0.0,0.0,8.791,196.244,48.505,1419.58
+3522703,Itápolis,longe e sem notificação (com CAPS),treino,0.844,10.128,0.0,100.5,71.045,1675.41
+3525300,Jaú,longe e sem notificação (com CAPS),teste,1.498,34.707,0.0,186.315,58.672,1751.62
+3525409,Jeriquara,longe e sem notificação (com CAPS),treino,0.0,8.629,20.397,192.57,31.22,1491.08
+3526001,Junqueirópolis,longe e sem notificação (com CAPS),treino,1.63,14.671,0.0,227.455,61.115,1638.65
+3527256,Lourdes,longe e sem notificação (com CAPS),treino,0.0,17.094,11.443,92.863,75.918,1400.55
+3527405,Lucélia,longe e sem notificação (com CAPS),treino,0.0,54.833,0.0,193.698,53.12,1571.18
+3528007,Macatuba,longe e sem notificação (com CAPS),treino,3.961,21.788,0.0,199.106,48.948,1555.42
+3529203,Martinópolis,longe e sem notificação (com CAPS),teste,1.34,25.454,0.0,238.176,23.516,1439.59
+3529302,Matão,longe e sem notificação (com CAPS),treino,0.844,10.544,0.0,132.01,32.671,1700.46
+3530201,Mirante do Paranapanema,longe e sem notificação (com CAPS),treino,0.0,46.072,0.0,323.294,37.347,1182.36
+3534302,Orlândia,longe e sem notificação (com CAPS),treino,0.0,12.178,0.0,151.381,33.762,1737.14
+3534609,Osvaldo Cruz,longe e sem notificação (com CAPS),treino,1.066,6.395,0.0,188.314,56.419,1773.28
+3534906,Pacaembu,longe e sem notificação (com CAPS),treino,0.0,4.481,0.0,213.413,55.486,1561.57
+3535408,Panorama,longe e sem notificação (com CAPS),teste,0.0,55.689,0.0,269.807,79.229,1347.66
+3535804,Paranapanema,longe e sem notificação (com CAPS),treino,0.0,13.749,0.0,219.877,72.307,1579.99
+3536000,Parapuã,longe e sem notificação (com CAPS),teste,3.151,18.904,13.401,191.924,48.854,1490.2
+3537008,Pedregulho,longe e sem notificação (com CAPS),treino,0.0,57.971,0.0,210.297,39.282,1428.33
+3537156,Pedrinhas Paulista,longe e sem notificação (com CAPS),treino,0.0,23.776,19.164,269.558,43.737,1839.31
+3538808,Piraju,longe e sem notificação (com CAPS),treino,2.265,15.854,0.0,265.634,98.978,1659.91
+3539301,Pirassununga,longe e sem notificação (com CAPS),treino,1.813,28.101,0.0,198.475,49.979,2014.47
+3539509,Pitangueiras,longe e sem notificação (com CAPS),treino,0.0,49.494,0.0,117.446,27.869,1363.54
+3540002,Pompéia,longe e sem notificação (com CAPS),teste,1.65,19.806,0.0,161.554,26.932,1904.12
+3541208,Presidente Bernardes,longe e sem notificação (com CAPS),treino,0.0,27.605,0.0,275.8,27.768,1619.0
+3542404,Regente Feijó,longe e sem notificação (com CAPS),treino,0.0,14.892,0.0,257.55,29.329,1607.09
+3544400,Rubiácea,longe e sem notificação (com CAPS),treino,0.0,0.0,12.908,161.151,90.471,1214.43
+3544707,Sagres,longe e sem notificação (com CAPS),treino,0.0,0.0,19.496,206.973,38.682,1184.76
+3545100,Salmourão,longe e sem notificação (com CAPS),treino,0.0,6.933,13.25,180.449,65.78,1280.67
+3546306,Santa Cruz das Palmeiras,longe e sem notificação (com CAPS),treino,1.155,48.503,0.0,208.663,50.29,1607.04
+3546504,Santa Ernestina,longe e sem notificação (com CAPS),treino,0.0,10.897,15.983,126.112,42.117,1533.31
+3547205,Santana da Ponte Pensa,longe e sem notificação (com CAPS),teste,0.0,0.0,16.232,161.276,53.573,1574.52
+3547700,Santo Anastácio,longe e sem notificação (com CAPS),treino,0.0,18.557,0.0,280.813,36.9,1557.89
+3549409,São Joaquim da Barra,longe e sem notificação (com CAPS),treino,1.373,9.611,0.0,149.98,50.924,1577.23
+3549706,São José do Rio Pardo,longe e sem notificação (com CAPS),treino,1.277,46.611,0.0,228.335,23.288,1547.43
+3549300,São João do Pau d'Alho,longe e sem notificação (com CAPS),treino,0.0,0.0,33.445,244.861,92.508,1578.37
+3552700,Tabatinga,longe e sem notificação (com CAPS),treino,0.0,6.771,23.658,126.707,47.14,1493.36
+3553609,Tapiratiba,longe e sem notificação (com CAPS),treino,0.0,36.673,0.0,244.393,30.132,1422.36
+3554755,Trabiju,longe e sem notificação (com CAPS),teste,0.0,0.0,31.403,172.821,31.403,1217.77
+3555109,Tupi Paulista,longe e sem notificação (com CAPS),treino,4.205,18.923,17.138,240.729,71.569,1947.45
+3555208,Turiúba,longe e sem notificação (com CAPS),treino,0.0,0.0,15.075,79.93,70.082,1691.07
+3555901,Uru,longe e sem notificação (com CAPS),treino,0.0,0.0,24.5,107.846,57.17,1489.99
+3501301,Álvares Machado,longe e sem notificação (com CAPS),treino,0.0,73.381,0.0,267.899,23.422,1462.07
+3500808,Alfredo Marcondes,longe e sem notificação (sem CAPS),treino,0.0,52.493,8.364,245.868,8.364,1485.42
+3501509,Alvinlândia,longe e sem notificação (sem CAPS),treino,0.0,150.202,25.84,188.629,38.1,1203.52
+3502002,Analândia,longe e sem notificação (sem CAPS),treino,0.0,116.22,26.802,199.729,29.584,1677.47
+3502408,Anhumas,longe e sem notificação (sem CAPS),treino,0.0,66.286,18.31,275.837,20.453,1409.42
+3502606,Aparecida d'Oeste,longe e sem notificação (sem CAPS),treino,0.0,24.474,26.243,166.747,70.559,1418.94
+3503000,Aramina,longe e sem notificação (sem CAPS),treino,0.0,166.052,17.111,175.771,64.782,1628.68
+3503158,Arapeí,longe e sem notificação (sem CAPS),treino,0.0,28.612,12.619,250.641,92.969,1149.76
+3503406,Arealva,longe e sem notificação (sem CAPS),teste,0.0,28.7,21.597,147.324,24.663,1731.53
+3503604,Areiópolis,longe e sem notificação (sem CAPS),teste,0.0,78.973,12.625,216.204,32.427,1345.98
+3504404,Avanhandava,longe e sem notificação (sem CAPS),treino,0.0,85.827,10.461,95.514,78.828,1246.92
+3505104,Barbosa,longe e sem notificação (sem CAPS),treino,0.0,130.024,22.047,80.272,64.276,1080.41
+3505351,Barra do Chapéu,longe e sem notificação (sem CAPS),teste,0.0,90.107,26.964,262.562,19.67,888.5
+3505401,Barra do Turvo,longe e sem notificação (sem CAPS),treino,0.0,106.651,26.934,226.957,62.767,1094.16
+3505609,Barrinha,longe e sem notificação (sem CAPS),teste,2.077,110.1,14.97,139.533,28.555,1385.51
+3505005,Barão de Antonina,longe e sem notificação (sem CAPS),teste,0.0,66.081,34.837,297.828,61.713,1066.93
+3506201,Bento de Abreu,longe e sem notificação (sem CAPS),teste,0.0,102.328,15.783,167.078,88.586,1550.41
+3506805,Bocaina,longe e sem notificação (sem CAPS),teste,0.0,32.567,19.776,168.934,50.334,1595.83
+3507159,Bom Sucesso de Itararé,longe e sem notificação (sem CAPS),treino,0.0,37.506,29.871,265.843,28.941,1141.43
+3507209,Borá,longe e sem notificação (sem CAPS),teste,0.0,147.005,15.501,199.716,27.033,1323.39
+3507753,Brejo Alegre,longe e sem notificação (sem CAPS),treino,0.0,38.986,13.971,97.799,84.555,1329.38
+3507803,Brodowski,longe e sem notificação (sem CAPS),treino,0.0,97.88,18.999,181.709,21.319,1711.42
+3508207,Buritizal,longe e sem notificação (sem CAPS),treino,0.0,76.523,16.411,185.317,50.327,1763.97
+3508702,Caconde,longe e sem notificação (sem CAPS),treino,0.0,146.19,15.924,234.735,43.985,1386.07
+3509106,Caiuá,longe e sem notificação (sem CAPS),treino,0.0,85.376,15.405,294.46,69.804,1214.27
+3509403,Cajuru,longe e sem notificação (sem CAPS),treino,1.399,86.725,25.603,219.151,34.482,1447.0
+3509957,Canas,longe e sem notificação (sem CAPS),treino,0.0,128.439,5.769,193.591,35.089,1174.28
+3557204,Chavantes,longe e sem notificação (sem CAPS),teste,0.0,117.381,0.0,253.378,86.846,1348.48
+3511904,Clementina,longe e sem notificação (sem CAPS),teste,0.0,85.935,39.382,143.101,84.115,1390.17
+3512308,Conchas,longe e sem notificação (sem CAPS),treino,2.188,115.984,19.404,161.573,37.899,1601.09
+3513306,Cruzália,longe e sem notificação (sem CAPS),treino,0.0,63.251,9.891,260.462,34.438,1505.41
+3510906,Cássia dos Coqueiros,longe e sem notificação (sem CAPS),treino,0.0,47.636,23.725,235.281,23.725,1539.7
+3510104,Cândido Rodrigues,longe e sem notificação (sem CAPS),treino,0.0,34.614,13.119,97.162,46.282,1528.06
+3513850,Dirce Reis,longe e sem notificação (sem CAPS),treino,0.0,144.033,19.268,137.621,40.717,1358.16
+3513900,Divinolândia,longe e sem notificação (sem CAPS),treino,0.0,35.849,20.167,220.694,42.046,1682.61
+3514007,Dobrada,longe e sem notificação (sem CAPS),teste,3.806,45.667,13.158,131.216,35.578,1361.96
+3514700,Echaporã,longe e sem notificação (sem CAPS),treino,0.0,102.068,28.475,203.257,28.475,1387.75
+3514924,Elisiário,longe e sem notificação (sem CAPS),teste,0.0,53.112,13.259,49.084,44.097,1535.69
+3514957,Embaúba,longe e sem notificação (sem CAPS),treino,0.0,28.699,23.425,55.655,35.33,1354.87
+3515400,Fartura,longe e sem notificação (sem CAPS),teste,2.003,48.074,27.692,289.026,79.55,1482.13
+3515657,Fernão,longe e sem notificação (sem CAPS),treino,0.0,503.221,13.52,175.209,44.533,1270.67
+3515806,Flora Rica,longe e sem notificação (sem CAPS),teste,0.0,44.833,24.695,231.859,32.853,1376.01
+3516002,Flórida Paulista,longe e sem notificação (sem CAPS),treino,0.0,146.628,0.0,205.222,53.563,1313.48
+3516804,Gastão Vidigal,longe e sem notificação (sem CAPS),treino,0.0,82.001,27.119,87.596,60.093,1377.87
+3517109,Glicério,longe e sem notificação (sem CAPS),treino,0.0,169.164,13.078,105.96,91.031,1412.75
+3517307,Guaimbê,longe e sem notificação (sem CAPS),treino,0.0,90.711,31.187,131.05,35.502,1235.95
+3517208,Guaiçara,longe e sem notificação (sem CAPS),treino,2.966,29.659,12.18,95.546,71.337,1305.59
+3518008,Guarani d'Oeste,longe e sem notificação (sem CAPS),teste,0.0,101.626,23.431,131.15,23.431,1226.38
+3518107,Guarantã,longe e sem notificação (sem CAPS),treino,0.0,88.17,18.783,126.712,49.88,1310.94
+3517802,Guaraçaí,longe e sem notificação (sem CAPS),treino,0.0,26.878,15.717,202.388,100.539,1542.83
+3516606,Gália,longe e sem notificação (sem CAPS),treino,0.0,229.885,15.171,170.836,44.483,1433.66
+3519303,Ibaté,longe e sem notificação (sem CAPS),teste,0.0,31.077,16.8,188.331,16.8,1285.02
+3520202,Igaratá,longe e sem notificação (sem CAPS),treino,0.0,392.896,18.437,76.552,23.126,1478.86
+3521200,Iporanga,longe e sem notificação (sem CAPS),treino,0.0,74.147,29.464,215.244,37.073,1124.95
+3521606,Irapuru,longe e sem notificação (sem CAPS),treino,4.705,32.933,7.564,219.717,56.744,1356.24
+3522000,Itaju,longe e sem notificação (sem CAPS),treino,0.0,175.051,14.931,141.106,47.886,1371.85
+3522158,Itaoca,longe e sem notificação (sem CAPS),treino,0.0,97.409,22.161,246.868,39.23,1008.01
+3522653,Itapirapuã Paulista,longe e sem notificação (sem CAPS),treino,0.0,85.153,44.054,280.452,0.0,1084.01
+3523008,Itapura,longe e sem notificação (sem CAPS),treino,0.0,50.264,26.146,217.752,125.849,1299.95
+3523305,Itariri,longe e sem notificação (sem CAPS),treino,0.0,77.28,11.631,86.657,67.597,1027.49
+3523701,Itirapuã,longe e sem notificação (sem CAPS),treino,5.768,23.072,24.742,228.095,24.742,1202.12
+3524204,Jaborandi,longe e sem notificação (sem CAPS),teste,0.0,37.507,27.803,99.132,33.894,1584.97
+3525508,Joanópolis,longe e sem notificação (sem CAPS),treino,0.0,52.022,15.158,90.571,33.648,1780.73
+3525607,João Ramalho,longe e sem notificação (sem CAPS),treino,0.0,305.041,13.248,222.167,13.248,1261.53
+3525854,Jumirim,longe e sem notificação (sem CAPS),treino,0.0,43.63,9.834,130.866,42.055,1366.75
+3526308,Lagoinha,longe e sem notificação (sem CAPS),treino,0.0,695.128,19.164,159.785,19.246,1368.11
+3527504,Lucianópolis,longe e sem notificação (sem CAPS),treino,0.0,379.427,16.863,187.653,50.268,1464.02
+3527900,Lutécia,longe e sem notificação (sem CAPS),treino,0.0,187.899,28.995,200.286,28.995,1451.06
+3527603,Luís Antônio,longe e sem notificação (sem CAPS),treino,0.0,59.791,31.894,183.819,38.06,1381.42
+3528700,Marabá Paulista,longe e sem notificação (sem CAPS),treino,0.0,109.337,25.413,316.005,50.977,1197.87
+3528858,Marapoama,longe e sem notificação (sem CAPS),treino,0.0,202.511,13.975,55.825,47.476,1526.46
+3528908,Mariápolis,longe e sem notificação (sem CAPS),treino,0.0,37.954,23.966,217.338,29.608,1361.35
+3529658,Mesópolis,longe e sem notificação (sem CAPS),treino,0.0,85.383,37.145,161.02,49.187,1278.93
+3531209,Monte Alegre do Sul,longe e sem notificação (sem CAPS),treino,0.0,204.783,13.168,104.542,13.168,1992.61
+3531605,Monte Castelo,longe e sem notificação (sem CAPS),treino,0.0,31.581,25.691,235.451,85.201,1402.16
+3531704,Monteiro Lobato,longe e sem notificação (sem CAPS),treino,0.0,475.27,20.875,117.521,21.776,1471.13
+3531001,Monções,longe e sem notificação (sem CAPS),treino,0.0,86.044,24.385,75.298,67.199,1338.77
+3532058,Motuca,longe e sem notificação (sem CAPS),treino,0.0,57.842,14.283,146.642,31.036,1479.74
+3532108,Murutinga do Sul,longe e sem notificação (sem CAPS),treino,0.0,89.198,18.185,202.858,110.843,1502.97
+3532157,Nantes,longe e sem notificação (sem CAPS),teste,0.0,225.564,39.359,276.068,44.67,1361.26
+3532306,Natividade da Serra,longe e sem notificação (sem CAPS),teste,0.0,142.878,26.214,131.485,38.63,1183.61
+3532603,Nhandeara,longe e sem notificação (sem CAPS),treino,0.0,121.803,24.592,72.964,51.264,1668.97
+3532702,Nipoã,longe e sem notificação (sem CAPS),treino,0.0,105.263,29.55,45.208,36.068,1346.36
+3532827,Nova Campina,longe e sem notificação (sem CAPS),treino,0.0,168.687,30.067,244.105,21.448,926.06
+3532843,Nova Canaã Paulista,longe e sem notificação (sem CAPS),teste,0.0,98.425,15.053,168.295,66.269,1499.45
+3532868,Nova Castilho,longe e sem notificação (sem CAPS),treino,0.0,31.387,33.619,102.554,56.812,1681.27
+3532900,Nova Europa,longe e sem notificação (sem CAPS),treino,0.0,17.9,22.353,137.114,38.314,1301.87
+3533106,Nova Guataporanga,longe e sem notificação (sem CAPS),treino,0.0,30.921,26.196,244.694,81.06,1356.94
+3533205,Nova Independência,longe e sem notificação (sem CAPS),treino,0.0,101.251,35.59,226.2,96.682,1422.32
+3533254,Novais,longe e sem notificação (sem CAPS),teste,0.0,98.217,16.762,50.36,42.91,1145.17
+3534104,Oriente,longe e sem notificação (sem CAPS),treino,0.0,76.691,12.19,167.78,12.19,1590.53
+3534807,Ouro Verde,longe e sem notificação (sem CAPS),treino,0.0,29.995,13.379,259.323,67.437,1167.79
+3536257,Parisi,longe e sem notificação (sem CAPS),treino,0.0,172.891,21.144,91.588,25.502,1359.26
+3536307,Patrocínio Paulista,longe e sem notificação (sem CAPS),teste,0.0,41.345,19.106,215.496,19.106,1342.63
+3536570,Paulistânia,longe e sem notificação (sem CAPS),treino,0.0,127.592,20.198,197.073,39.447,1337.04
+3536901,Pedranópolis,longe e sem notificação (sem CAPS),treino,0.0,47.841,19.781,101.845,19.781,1530.81
+3537701,Piacatu,longe e sem notificação (sem CAPS),treino,0.0,36.238,29.558,158.831,84.166,1450.85
+3538303,Piquerobi,longe e sem notificação (sem CAPS),treino,0.0,122.549,12.806,272.61,43.121,1304.25
+3539707,Platina,longe e sem notificação (sem CAPS),teste,0.0,242.424,21.821,221.708,21.821,1317.54
+3539905,Poloni,longe e sem notificação (sem CAPS),treino,0.0,77.492,30.593,48.27,44.549,1589.47
+3540408,Populina,longe e sem notificação (sem CAPS),treino,0.0,32.308,42.211,156.19,47.123,1340.0
+3540507,Porangaba,longe e sem notificação (sem CAPS),treino,3.189,28.705,21.723,158.861,49.583,1451.19
+3540853,Pracinha,longe e sem notificação (sem CAPS),treino,0.0,12.93,23.191,212.105,32.593,1252.86
+3540903,Pradópolis,longe e sem notificação (sem CAPS),treino,1.952,109.302,15.671,145.073,30.899,1538.35
+3541653,Quadra,longe e sem notificação (sem CAPS),treino,0.0,29.369,15.706,146.472,62.727,1517.01
+3542701,Restinga,longe e sem notificação (sem CAPS),treino,0.0,31.23,16.615,193.137,16.615,1215.0
+3542800,Ribeira,longe e sem notificação (sem CAPS),treino,0.0,74.5,30.447,264.748,19.223,1092.39
+3542909,Ribeirão Bonito,longe e sem notificação (sem CAPS),treino,0.0,36.4,26.077,185.409,29.682,1436.29
+3543105,Ribeirão Corrente,longe e sem notificação (sem CAPS),treino,0.0,238.715,21.529,190.095,22.861,1222.84
+3543253,Ribeirão Grande,longe e sem notificação (sem CAPS),treino,0.0,35.794,18.427,183.985,42.901,1110.8
+3543204,Ribeirão do Sul,longe e sem notificação (sem CAPS),treino,0.0,220.939,23.203,225.259,53.573,1402.27
+3543238,Ribeirão dos Índios,longe e sem notificação (sem CAPS),treino,0.0,16.461,24.656,254.877,34.378,1309.36
+3544202,Riolândia,longe e sem notificação (sem CAPS),treino,0.0,248.973,0.0,93.573,65.902,1152.39
+3543501,Riversul,longe e sem notificação (sem CAPS),treino,0.0,71.441,29.735,285.493,29.735,1032.65
+3544509,Rubinéia,longe e sem notificação (sem CAPS),treino,0.0,182.625,7.388,183.449,76.979,1417.38
+3544608,Sabino,longe e sem notificação (sem CAPS),treino,0.0,19.562,23.173,77.949,61.353,1431.47
+3544806,Sales,longe e sem notificação (sem CAPS),treino,0.0,98.39,26.427,62.905,46.647,1449.56
+3545506,Sandovalina,longe e sem notificação (sem CAPS),treino,0.0,73.16,21.538,317.591,17.975,1322.62
+3546256,Santa Cruz da Esperança,longe e sem notificação (sem CAPS),teste,0.0,47.259,19.032,206.217,40.386,1486.5
+3548104,Santo Antônio do Jardim,longe e sem notificação (sem CAPS),treino,0.0,103.384,13.323,168.471,59.228,1487.79
+3548302,Santo Expedito,longe e sem notificação (sem CAPS),treino,0.0,66.667,18.877,237.783,18.877,1258.52
+3548401,Santópolis do Aguapeí,longe e sem notificação (sem CAPS),treino,0.0,51.295,31.828,153.751,79.674,1254.45
+3551306,Sebastianópolis do Sul,longe e sem notificação (sem CAPS),treino,0.0,63.898,20.379,61.134,55.264,1667.35
+3552007,Silveiras,longe e sem notificação (sem CAPS),teste,0.0,53.885,15.911,210.92,52.076,1153.4
+3552304,Sud Mennucci,longe e sem notificação (sem CAPS),treino,0.0,27.192,21.449,161.093,78.007,1361.7
+3552551,Suzanápolis,longe e sem notificação (sem CAPS),teste,0.0,39.124,19.331,182.621,86.024,1343.1
+3549003,São Francisco,longe e sem notificação (sem CAPS),treino,0.0,102.485,15.555,145.334,42.318,1574.4
+3549508,São José da Bela Vista,longe e sem notificação (sem CAPS),teste,0.0,17.484,18.845,181.393,25.956,1171.92
+3549607,São José do Barreiro,longe e sem notificação (sem CAPS),treino,0.0,103.815,26.034,233.157,75.808,1251.77
+3549201,São João das Duas Pontes,longe e sem notificação (sem CAPS),treino,0.0,167.959,18.801,115.263,18.801,1560.38
+3549250,São João de Iracema,longe e sem notificação (sem CAPS),treino,0.0,379.198,28.826,108.153,28.826,1454.39
+3552908,Taciba,longe e sem notificação (sem CAPS),treino,0.0,26.624,28.419,279.444,33.498,1391.05
+3553302,Tambaú,longe e sem notificação (sem CAPS),treino,1.555,63.759,17.079,235.344,27.427,1702.58
+3553500,Tapiraí,longe e sem notificação (sem CAPS),treino,0.0,125.063,20.298,105.985,62.692,1156.39
+3553658,Taquaral,longe e sem notificação (sem CAPS),teste,0.0,381.825,17.284,103.975,18.237,1606.61
+3554409,Terra Roxa,longe e sem notificação (sem CAPS),teste,0.0,84.345,22.28,105.185,24.921,1605.47
+3554607,Timburi,longe e sem notificação (sem CAPS),treino,0.0,40.584,14.265,267.731,103.446,1241.59
+3554656,Torre de Pedra,longe e sem notificação (sem CAPS),treino,0.0,114.044,13.422,165.278,50.2,1344.68
+3554904,Três Fronteiras,longe e sem notificação (sem CAPS),treino,0.0,186.165,8.948,168.076,61.402,1569.16
+3555307,Turmalina,longe e sem notificação (sem CAPS),teste,0.0,159.776,24.69,139.526,27.752,1793.09
+3555356,Ubarana,longe e sem notificação (sem CAPS),teste,0.0,124.262,36.527,61.91,45.379,1156.09
+3555505,Ubirajara,longe e sem notificação (sem CAPS),treino,0.0,181.865,30.908,196.564,51.75,1339.15
+3556008,Urupês,longe e sem notificação (sem CAPS),treino,2.425,41.23,27.169,46.422,35.345,1630.42
+3556354,Vargem,longe e sem notificação (sem CAPS),teste,0.0,60.249,15.581,87.815,42.863,1452.82
+3556602,Vera Cruz,longe e sem notificação (sem CAPS),treino,0.0,150.681,14.327,166.919,17.091,1513.7
+3556958,Vitória Brasil,longe e sem notificação (sem CAPS),treino,0.0,111.483,12.129,135.329,22.878,1415.49
+3557154,Zacarias,longe e sem notificação (sem CAPS),treino,0.0,123.824,17.865,80.537,67.133,1437.75
+3533809,Óleo,longe e sem notificação (sem CAPS),treino,0.0,92.887,14.153,239.603,82.033,1376.51
+3502754,Araçariguama,polo de serviços,teste,12.39,387.201,0.0,49.405,27.197,1464.76
+3503901,Arujá,polo de serviços,teste,13.46,239.584,8.706,44.353,13.983,1982.83
+3504107,Atibaia,polo de serviços,treino,7.984,129.638,0.0,58.597,21.707,2283.78
+3504602,Bady Bassitt,polo de serviços,treino,25.679,619.956,13.488,17.051,0.0,1808.97
+3505708,Barueri,polo de serviços,treino,8.321,258.158,0.0,28.09,6.2,2412.35
+3504800,Bálsamo,polo de serviços,teste,6.947,298.736,13.99,22.427,22.427,1568.8
+3509007,Caieiras,polo de serviços,teste,11.926,237.113,0.0,31.275,17.309,1668.47
+3509205,Cajamar,polo de serviços,treino,6.114,275.114,0.0,40.013,21.523,1728.39
+3509601,Campo Limpo Paulista,polo de serviços,teste,13.311,265.354,0.0,48.972,23.221,1564.93
+3510609,Carapicuíba,polo de serviços,treino,5.685,114.647,0.0,22.21,0.0,1432.95
+3511300,Cedral,polo de serviços,treino,18.492,417.393,11.25,16.195,16.195,1810.97
+3513504,Cubatão,polo de serviços,treino,2.371,93.65,0.0,34.947,15.883,1246.76
+3513801,Diadema,polo de serviços,treino,8.985,283.459,0.0,6.984,0.0,1522.03
+3515004,Embu das Artes,polo de serviços,teste,10.504,205.698,0.0,20.093,9.586,1249.69
+3515103,Embu-Guaçu,polo de serviços,treino,12.443,374.795,0.0,29.485,13.692,1386.48
+3515707,Ferraz de Vasconcelos,polo de serviços,treino,21.02,311.573,0.0,29.833,8.269,1201.71
+3516309,Francisco Morato,polo de serviços,treino,16.148,260.79,0.0,42.161,17.04,1035.25
+3516408,Franco da Rocha,polo de serviços,treino,9.205,214.246,0.0,37.873,17.724,1397.55
+3517505,Guapiaçu,polo de serviços,treino,10.747,534.291,0.0,18.216,18.216,1671.55
+3519402,Ibirá,polo de serviços,treino,2.851,313.658,16.707,34.0,27.576,1717.95
+3521150,Ipiguá,polo de serviços,treino,0.0,611.349,16.914,16.914,16.914,1353.73
+3522208,Itapecerica da Serra,polo de serviços,treino,5.467,171.164,0.0,23.642,0.0,1248.65
+3522505,Itapevi,polo de serviços,teste,6.744,116.231,0.0,34.023,12.981,1138.47
+3523107,Itaquaquecetuba,polo de serviços,teste,5.326,154.808,0.0,38.234,14.232,1101.16
+3524501,Jaci,polo de serviços,treino,4.378,468.497,15.498,28.808,15.465,1443.85
+3525003,Jandira,polo de serviços,treino,9.318,216.302,0.0,27.625,5.823,1628.78
+3525904,Jundiaí,polo de serviços,treino,5.941,148.383,0.0,56.99,23.282,2774.36
+3529401,Mauá,polo de serviços,treino,8.049,207.845,0.0,20.781,6.645,1478.74
+3530300,Mirassol,polo de serviços,treino,3.158,93.153,0.0,15.66,13.488,2049.55
+3530409,Mirassolândia,polo de serviços,treino,14.279,371.243,18.05,26.373,26.373,1322.05
+3530607,Mogi das Cruzes,polo de serviços,treino,7.161,335.692,0.0,48.049,13.47,1851.39
+3532504,Neves Paulista,polo de serviços,treino,0.0,168.402,15.321,30.96,22.826,1828.88
+3532801,Nova Aliança,polo de serviços,teste,34.862,428.308,25.926,33.699,16.65,1565.88
+3533007,Nova Granada,polo de serviços,treino,5.15,312.409,0.0,36.124,36.124,1455.77
+3533908,Olímpia,polo de serviços,treino,12.105,182.784,0.0,42.635,42.635,1674.78
+3534005,Onda Verde,polo de serviços,treino,13.973,523.999,14.922,23.268,23.268,1480.85
+3534401,Osasco,polo de serviços,treino,7.64,200.838,0.0,19.484,0.0,1951.14
+3540804,Potirendaba,polo de serviços,treino,10.813,286.548,28.905,31.273,16.762,1696.31
+3539806,Poá,polo de serviços,teste,11.886,159.013,0.0,33.313,9.675,1476.59
+3541000,Praia Grande,polo de serviços,treino,1.524,37.436,0.0,42.956,22.628,1795.56
+3543303,Ribeirão Pires,polo de serviços,treino,5.769,126.919,0.0,25.881,5.551,1660.3
+3544103,Rio Grande da Serra,polo de serviços,treino,3.773,110.935,0.0,29.529,7.492,1233.69
+3547304,Santana de Parnaíba,polo de serviços,treino,7.138,235.986,0.0,34.788,13.39,3465.07
+3548500,Santos,polo de serviços,treino,2.867,98.501,0.0,44.06,22.841,3237.52
+3548807,São Caetano do Sul,polo de serviços,teste,5.634,125.763,0.0,8.689,8.689,3884.58
+3549805,São José do Rio Preto,polo de serviços,treino,17.555,617.897,0.0,0.0,0.0,2410.09
+3549953,São Lourenço da Serra,polo de serviços,treino,4.149,226.136,10.903,36.883,14.874,1374.59
+3550308,São Paulo,polo de serviços,treino,16.597,294.094,0.0,0.0,0.0,2713.36
+3550605,São Roque,polo de serviços,treino,5.871,90.165,0.0,47.985,20.599,2014.74
+3551009,São Vicente,polo de serviços,teste,2.526,87.195,0.0,38.585,17.442,1451.91
+3552601,Tabapuã,polo de serviços,treino,8.832,223.733,13.558,37.312,37.312,1674.01
+3552809,Taboão da Serra,polo de serviços,treino,5.727,117.593,0.0,15.888,8.95,1740.2
+3553401,Tanabi,polo de serviços,treino,21.11,362.821,0.0,42.301,42.301,1480.38
+3555604,Uchoa,polo de serviços,treino,22.449,644.603,0.0,25.753,25.753,1575.95
+3556453,Vargem Grande Paulista,polo de serviços,treino,6.612,176.535,0.0,37.249,8.086,1929.62
+3501905,Amparo,rede regional,treino,3.431,171.058,0.0,106.37,0.0,1986.75
+3503208,Araraquara,rede regional,treino,4.954,106.649,0.0,164.595,0.0,2128.11
+3504008,Assis,rede regional,treino,2.958,141.999,0.0,228.822,0.0,1997.74
+3506003,Bauru,rede regional,treino,4.835,128.974,0.0,163.832,0.0,2210.1
+3506102,Bebedouro,rede regional,treino,6.983,151.886,0.0,89.645,0.0,1734.11
+3507506,Botucatu,rede regional,treino,13.319,274.649,0.0,205.012,0.0,1991.29
+3509502,Campinas,rede regional,teste,12.145,195.865,0.0,94.128,0.0,2678.6
+3513009,Cotia,rede regional,treino,11.904,168.845,0.0,31.659,0.0,2275.73
+3515301,Estrela do Norte,rede regional,teste,0.0,61.66,4.895,303.673,0.0,1405.87
+3515509,Fernandópolis,rede regional,teste,10.302,177.469,0.0,112.768,0.0,1853.8
+3516200,Franca,rede regional,treino,3.12,64.107,0.0,207.349,0.0,1734.79
+3518800,Guarulhos,rede regional,treino,11.586,203.055,0.0,33.401,0.0,1643.73
+3519055,Holambra,rede regional,treino,11.042,147.962,0.0,121.221,9.086,2545.63
+3519071,Hortolândia,rede regional,treino,6.902,197.345,0.0,102.856,0.0,1619.28
+3523206,Itararé,rede regional,teste,4.501,93.764,0.0,274.218,0.0,1297.43
+3523404,Itatiba,rede regional,treino,3.29,107.739,0.0,73.108,0.0,2282.1
+3524709,Jaguariúna,rede regional,treino,4.493,119.635,0.0,112.762,0.0,2045.01
+3525102,Jardinópolis,rede regional,teste,2.208,187.713,23.927,160.602,0.0,1536.17
+3528502,Mairiporã,rede regional,treino,5.683,311.125,0.0,37.839,0.0,1825.67
+3529005,Marília,rede regional,treino,5.751,186.847,0.0,166.522,0.0,2024.26
+3530508,Mococa,rede regional,treino,12.805,315.697,0.0,247.546,0.0,1693.15
+3535507,Paraguaçu Paulista,rede regional,treino,12.16,330.739,0.0,226.499,0.0,1546.02
+3536208,Pariquera-Açu,rede regional,treino,3.466,511.274,0.0,167.141,0.0,1435.07
+3536505,Paulínia,rede regional,treino,9.348,183.347,0.0,112.15,0.0,2680.07
+3538709,Piracicaba,rede regional,treino,5.512,137.799,0.0,154.706,0.0,2145.67
+3541406,Presidente Prudente,rede regional,treino,4.136,89.217,0.0,244.696,0.0,2104.17
+3542206,Rancharia,rede regional,treino,19.822,258.85,0.0,231.615,0.0,1424.04
+3543402,Ribeirão Preto,rede regional,treino,4.055,105.729,0.0,166.008,0.0,2507.29
+3544251,Rosana,rede regional,treino,24.847,277.141,0.0,405.546,0.0,1598.65
+3544301,Roseira,rede regional,treino,18.464,375.431,6.806,158.998,0.0,1393.07
+3547809,Santo André,rede regional,treino,5.875,100.945,0.0,22.093,0.0,2460.93
+3548005,Santo Antônio de Posse,rede regional,treino,0.0,186.428,0.0,120.146,0.0,1423.41
+3552205,Sorocaba,rede regional,treino,6.863,159.785,0.0,83.773,0.0,2165.31
+3552502,Suzano,rede regional,treino,12.035,198.962,0.0,34.805,0.0,1407.5
+3548708,São Bernardo do Campo,rede regional,treino,6.784,236.372,0.0,21.197,0.0,2229.41
+3548906,São Carlos,rede regional,treino,1.831,68.797,0.0,198.572,0.0,2281.26
+3549904,São José dos Campos,rede regional,teste,16.881,616.356,0.0,96.219,0.0,2276.81
+3550407,São Pedro,rede regional,treino,6.971,250.07,0.0,177.981,0.0,1747.04
+3550704,São Sebastião,rede regional,treino,22.469,475.928,0.0,106.744,0.0,1607.55
+3553906,Tarabai,rede regional,treino,0.0,45.9,0.0,291.792,0.0,1266.7
+3554102,Taubaté,rede regional,treino,11.907,323.959,0.0,132.687,0.0,1941.51
+3556206,Valinhos,rede regional,treino,3.693,115.003,0.0,81.863,12.343,3127.28
+3556701,Vinhedo,rede regional,treino,10.017,216.009,0.0,74.621,17.445,3247.77
+3500600,Águas de São Pedro,rede regional,teste,0.0,179.856,6.963,171.02,6.963,2932.68

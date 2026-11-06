@@ -1,14 +1,25 @@
 # Relatório de Machine Learning · Aquenda
 
-**Violência de repetição contra pessoas LGBTQIAPN+ na cidade de São Paulo**
+**Onde falta cuidado e quem precisa de retorno: violência contra pessoas LGBTQIAPN+ em São Paulo**
 
 Global Solution 2026.2 · CitizenTech · Inteligência Artificial & Machine Learning
 
 Giovanne Charelli Zaniboni Silva (RM 556223) · Gustavo Oliveira de Moura (RM 555827) · Lynn Bueno Rosa (RM 551102)
 
-Notebook executado: [`ml/violencia_de_repeticao.ipynb`](ml/violencia_de_repeticao.ipynb) · Dados: [`ml/dados/README.md`](ml/dados/README.md)
+Notebooks executados: [`ml/violencia_de_repeticao.ipynb`](ml/violencia_de_repeticao.ipynb) (parte 1) e [`ml/desertos_de_cuidado.ipynb`](ml/desertos_de_cuidado.ipynb) (parte 2) · Dados: [`ml/dados/README.md`](ml/dados/README.md)
+
+O trabalho responde a duas perguntas complementares, com os mesmos dados de violência do SINAN:
+
+| | Parte 1 · Quem precisa de retorno | Parte 2 · Onde falta cuidado |
+|---|---|---|
+| Pergunta | a violência sofrida por uma pessoa LGBTQIAPN+ já tinha acontecido antes? | quais municípios de SP formam desertos de cuidado? |
+| Unidade | uma notificação (9.856, cidade de SP) | um município (645, estado de SP) |
+| Tipo | supervisionado (classificação) | não supervisionado (agrupamento) |
+| Modelo | XGBoost | KMeans + PCA |
 
 ---
+
+# Parte 1 · Quem precisa de retorno: violência de repetição (XGBoost)
 
 ## 1. Problema e dados reais
 
@@ -143,7 +154,7 @@ Com profundidade 10, o treino chega a 0,996: o modelo praticamente decora as fic
 | ocorreu na via pública | 27% (2.517) |
 | autor desconhecido | 20% (2.870) |
 
-## 6. Conclusão para o cidadão
+## 6. Conclusão para o cidadão (parte 1)
 
 **A violência que se repete contra pessoas LGBTQIAPN+ em São Paulo vem de dentro de casa.** Quando o autor é da família, 7 em cada 10 casos já tinham acontecido antes. Com parceiro(a) ou ex, 2 em cada 3. Com um desconhecido na rua, 1 em cada 5. Para quem é LGBTQIAPN+, o lugar mais perigoso pode ser onde mora, e com quem mora. Isso reforça três decisões do Aquenda:
 
@@ -162,3 +173,107 @@ O modelo acerta bem mais do que o acaso (AUC 0,80) e manteve o desempenho em 202
 - Muita violência contra pessoas LGBTQIAPN+ nunca é notificada.
 - Orientação e identidade ficam como "ignorado" em parte das fichas, então o recorte é menor do que a realidade.
 - O campo "ocorreu outras vezes?" depende do que a pessoa conta no atendimento.
+
+
+---
+
+# Parte 2 · Onde falta cuidado: desertos de cuidado (KMeans + PCA)
+
+## 1. Problema e dados reais
+
+O pitch do Aquenda promete mostrar "serviços perto da pessoa". Fora da capital, perto pode não existir. **Pergunta:** quais municípios do estado de São Paulo se parecem quando olhamos violência notificada, distância até o cuidado e renda? Quais formam **desertos de cuidado**, com violência contra pessoas LGBTQIAPN+, cuidado longe e pouca renda para chegar até ele?
+
+Montamos uma linha para cada um dos **645 municípios** a partir de três fontes públicas:
+
+- **SINAN** (2022–2024): notificações de violência interpessoal por 100 mil moradores, no total e com vítima LGBTQIAPN+, pelo município de residência;
+- **CNES** (dez/2024): distância até o município mais próximo com CAPS, com serviço habilitado no processo transexualizador e com atenção à violência sexual;
+- **IBGE, Censo 2022:** população e renda domiciliar per capita.
+
+Um dado já diz muito: **só 2 municípios do estado têm serviço habilitado pelo SUS no processo transexualizador**, São Paulo e São José do Rio Preto. A distância mediana até um deles é de 149 km, e a maior chega a 405 km.
+
+## 2. Escolha do modelo
+
+A pergunta **não tem rótulo**: ninguém marcou antes quais municípios são desertos. Por isso o modelo é o **KMeans**, que agrupa municípios parecidos e entrega o "perfil" de cada grupo, que dá para ler.
+
+O **PCA** entra para tirar redundância entre as variáveis, porque as três distâncias andam juntas, e para desenhar os grupos num plano. Os 2 primeiros componentes explicam 59% da variação, e os 3 primeiros, 73%. XGBoost, Random Forest, MLP e LSTM precisariam de um rótulo que aqui não existe.
+
+## 3. Preparação e divisão treino/teste
+
+- **Transformação.** As seis variáveis são muito assimétricas: a capital tem 11 milhões de moradores, e há municípios com taxa zero. Todas passam por `log(1 + x)` e por padronização, ajustada só no treino. Sem isso, o KMeans, que mede distância, ficaria refém da variável de maior escala.
+- **Teste.** Mesmo sem rótulo, separamos **20% dos municípios** (129) ao acaso. Padronização, PCA e KMeans foram ajustados nos outros 516. Os do teste só entram no fim, distribuídos nos grupos já formados.
+- **Escolha dos hiperparâmetros.** Foi feita com validação cruzada de 5 partes **só no treino**. Em cada parte, o modelo ajustado em 4/5 do treino distribui o 1/5 que ficou de fora, e medimos a silhueta desse 1/5.
+
+## 4. Treino com diferentes hiperparâmetros
+
+São **36 combinações**: `n_clusters` (2 a 7) × componentes do PCA (2, 3 ou sem redução) × `init` (`k-means++` ou `random`). Para cada uma medimos duas coisas:
+
+- a **silhueta** na parte de validação, sempre no mesmo espaço das 6 variáveis padronizadas, para comparar com e sem PCA;
+- a **estabilidade**: o ARI entre os agrupamentos feitos em partes diferentes do treino.
+
+![Grade KMeans](ml/figuras/12_grade_silhueta.png)
+
+- **Reduzir para 2 ou 3 componentes piorou o agrupamento.** A melhor silhueta foi 0,218 com 2 componentes, 0,225 com 3 e **0,265 sem redução**. O que separa os grupos está espalhado em mais de 3 direções. O PCA ficou para a visualização e para mostrar o que cada direção carrega.
+- **k = 7 já passa do ponto.** A silhueta de validação cai para 0,23 e a estabilidade para 0,74–0,76: os grupos mudam conforme a amostra.
+
+**Regra de escolha,** fixada antes do teste:
+
+- k de 3 para cima, porque o objetivo exige ao menos "bem servido", "intermediário" e "deserto";
+- estabilidade de pelo menos 0,8;
+- entre essas, a maior silhueta.
+
+Ficou **k = 6, sem redução, `k-means++`**, com silhueta de validação 0,265 e estabilidade 0,89.
+
+## 5. Resultados em treino e teste
+
+| | Silhueta | Davies-Bouldin (menor é melhor) | Inércia por município |
+|---|---|---|---|
+| Treino (516) | 0,274 | 1,307 | 2,522 |
+| **Teste (129)** | **0,225** | **1,393** | **2,677** |
+
+![Treino e teste do KMeans](ml/figuras/13_treino_vs_teste_kmeans.png)
+
+**Os grupos se sustentam em municípios que o modelo não viu.** No teste, a silhueta cai 0,05, o Davies-Bouldin sobe 0,09 e a inércia sobe 6%. A silhueta de 0,23–0,27 é moderada: os municípios formam um contínuo, sem blocos isolados. Os grupos são faixas de perfil, não categorias rígidas.
+
+**Overfitting.** A inércia do treino cai sempre que k aumenta, de 4,58 com k = 2 para 1,87 com k = 10. A distância entre treino e teste, porém, fica em 0,04–0,06 com k = 3 e 4 e sobe para 0,16–0,25 de k = 5 em diante. Somado à queda de estabilidade em k = 7, esse é o sinal de que grupos a mais passam a descrever a amostra, e não o estado. Com k = 6, a silhueta de validação foi a mais alta, e foi isso que pesou na escolha.
+
+![Grupos no PCA e no mapa](ml/figuras/15_grupos_pca_e_mapa.png)
+
+![Perfil dos grupos](ml/figuras/16_perfil_dos_grupos.png)
+
+| Grupo | Municípios | Moradores | Perfil (mediana) |
+|---|---|---|---|
+| polo de serviços | 55 | 19,8 milhões | CAPS no município, serviço trans a 31 km |
+| rede regional | 44 | 10,8 milhões | CAPS e atenção à violência sexual no município, renda alta (R$ 1.989) |
+| intermediário | 162 | 9,6 milhões | CAPS no município, serviço trans a 142 km |
+| **deserto de cuidado** | **177** | **1,7 milhão** | **a maior taxa de violência LGBT notificada (9,3 por 100 mil), sem CAPS no município (20 km), serviço trans a 148 km, renda baixa (R$ 1.429)** |
+| longe e sem notificação (sem CAPS) | 147 | 0,9 milhão | quase nenhuma notificação LGBT, sem CAPS, serviço trans a 175 km, a menor renda (R$ 1.372) |
+| longe e sem notificação (com CAPS) | 60 | 1,4 milhão | quase nenhuma notificação de violência, serviço trans a 195 km |
+
+## 6. Conclusão para o cidadão (parte 2)
+
+**Ser LGBTQIAPN+ fora da capital é estar longe do cuidado.** No grupo deserto de cuidado moram 1,7 milhão de pessoas, em 177 municípios. Entre 2022 e 2024, eles somaram 573 notificações de violência contra pessoas LGBTQIAPN+. Nenhum desses municípios tem CAPS, e o ambulatório trans habilitado mais próximo fica, na mediana, a 148 km. Exemplos são Birigui, Mongaguá, Tremembé e Piquete.
+
+O grupo **longe e sem notificação** preocupa de outro jeito. Ali quase não há registro de violência contra pessoas LGBTQIAPN+, e isso não quer dizer que ela não aconteça: falta onde notificar e quem pergunte.
+
+Para o Aquenda, a lista de municípios por grupo (`ml/modelo/municipios_por_grupo.csv`) diz onde priorizar:
+
+- mapear ONGs e serviços parceiros;
+- oferecer orientação por teleatendimento;
+- indicar a Defensoria e o transporte até a consulta.
+
+Para o poder público, ela diz onde habilitar o próximo serviço.
+
+**Limites.**
+
+- A distância é em linha reta, entre os centros dos municípios.
+- O CNES só mostra habilitação federal. Ambulatórios trans municipais sem esse código ficam de fora.
+- Notificação baixa pode querer dizer pouca violência ou pouco serviço para notificar.
+
+## Conclusão geral
+
+As duas partes contam a mesma história de dois ângulos.
+
+- **Na cidade de São Paulo, a violência que se repete vem de casa:** família, parceiro(a) ou ex. É quem mais precisa de acolhimento e acompanhamento.
+- **No estado, quem mora fora dos polos** está a dezenas ou centenas de quilômetros do cuidado especializado.
+
+O Aquenda junta as duas respostas: casas de acolhimento e rede de apoio para quem sofre em casa, e um mapa honesto que mostra o serviço mais próximo de verdade e a alternativa (teleatendimento, ONG, Defensoria) onde não há nada perto.
