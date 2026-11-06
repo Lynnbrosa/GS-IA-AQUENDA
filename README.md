@@ -22,6 +22,46 @@ O Aquenda é um app para a comunidade LGBTQIAPN+ de São Paulo, com casas de aco
 
 O relatório completo está em [`RELATORIO_ML.md`](RELATORIO_ML.md).
 
+## Gráficos
+
+Todos são gerados pelo notebook e ficam em `ml/figuras/`.
+
+**Os dados.** Fichas com resposta e % de violência de repetição por ano:
+
+![Fichas e % de repetição por ano](ml/figuras/01_alvo_por_ano.png)
+
+**A divisão pelo tempo.** Treino de 2015 a 2023, teste em 2024:
+
+![Divisão treino e teste pelo tempo](ml/figuras/02_divisao_temporal.png)
+
+**As 36 combinações de hiperparâmetros.** AUC na validação cruzada, calculada só no treino:
+
+![Grade de hiperparâmetros](ml/figuras/03_grade_auc_validacao.png)
+
+**Treino e validação em cada combinação.** Quanto mais o modelo se ajusta ao treino, mais as duas linhas se afastam:
+
+![Overfitting na grade](ml/figuras/04_overfitting_grade.png)
+
+**Treino e teste lado a lado** com o modelo escolhido:
+
+![Métricas de treino e teste](ml/figuras/05_treino_vs_teste.png)
+
+**Curva ROC e matriz de confusão** no teste de 2024:
+
+![Curva ROC e matriz de confusão](ml/figuras/06_roc_e_confusao.png)
+
+**Overfitting pela profundidade das árvores.** O treino sobe até 0,996, e a validação e o teste caem:
+
+![Curva de profundidade](ml/figuras/07_curva_profundidade.png)
+
+**AUC por ano.** O padrão aprendido continua valendo em 2024:
+
+![AUC por ano](ml/figuras/08_auc_por_ano.png)
+
+**O que mais pesa na previsão.** Laranja puxa para repetição, azul puxa para não:
+
+![Importância das variáveis](ml/figuras/09_importancia.png)
+
 ## Estrutura
 
 ```
