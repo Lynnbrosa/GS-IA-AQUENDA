@@ -1,0 +1,82 @@
+# Dados
+
+## Fonte
+
+**SINAN: Violência Interpessoal/Autoprovocada**, do Ministério da Saúde. É a ficha que qualquer serviço de saúde preenche quando atende alguém em situação de violência. Os microdados são públicos e não têm nome nem documento de ninguém.
+
+- Arquivos: `VIOLBR15.dbc` a `VIOLBR24.dbc` (Brasil inteiro, um por ano), dados finais.
+- Endereço: ftp://ftp.datasus.gov.br/dissemin/publicos/SINAN/DADOS/FINAIS/
+- Período: 2015 a 2024, pelo ano da notificação.
+- Baixados em 06/11/2026.
+
+Os campos de orientação sexual (`ORIENT_SEX`) e identidade de gênero (`IDENT_GEN`) entraram na ficha em 2014. Por isso o recorte começa em 2015, o primeiro ano completo com eles.
+
+## Recorte
+
+`sinan_violencia_lgbt_sao_paulo_2015_2024.csv` tem as notificações que atendem às duas condições:
+
+1. **Notificadas na cidade de São Paulo:** `ID_MUNICIP` = 355030, o código IBGE de 6 dígitos que o SINAN usa.
+2. **A pessoa atendida é LGBTQIAPN+**, por pelo menos um destes campos:
+   - `ORIENT_SEX` = 2 (homossexual: gay ou lésbica) ou 3 (bissexual);
+   - `IDENT_GEN` = 1 (travesti), 2 (mulher transexual) ou 3 (homem transexual).
+
+| Ano | Notificações no recorte |
+|---|---|
+| 2015 | 205 |
+| 2016 | 533 |
+| 2017 | 702 |
+| 2018 | 1.064 |
+| 2019 | 1.268 |
+| 2020 | 1.287 |
+| 2021 | 1.921 |
+| 2022 | 2.320 |
+| 2023 | 3.451 |
+| 2024 | 3.427 |
+| **Total** | **16.178** |
+
+O crescimento ao longo dos anos é, em boa parte, mais preenchimento desses campos e mais notificação, e não só mais violência.
+
+Saem do CSV, já na preparação:
+
+- os campos de texto livre ("especifique"), que podem trazer detalhe que identifica alguém;
+- a ocupação;
+- as datas de digitação e de transferência entre sistemas.
+
+## Do CSV ao conjunto do modelo
+
+No notebook:
+
+| Passo | Notificações |
+|---|---|
+| Recorte acima | 16.178 |
+| Sem lesão autoprovocada (`LES_AUTOP` ≠ 1): a pergunta é sobre violência de outra pessoa | 10.934 |
+| Com resposta em `OUT_VEZES` (1 sim, 2 não), sem as 1.037 fichas com "ignorado" e as 41 em branco | **9.856** |
+| Violência de repetição (`OUT_VEZES` = 1) | 4.493 (45,6%) |
+
+O arquivo de 2020 vem com `NU_ANO` em branco. O ano sai de `DT_NOTIFIC`.
+
+## Campos usados
+
+Os campos de sim/não seguem o código do SINAN: 1 = sim, 2 = não, 9 = ignorado. Cada um vira duas colunas, "sim" e "ignorado", para não perder a informação de que o campo ficou sem resposta.
+
+| Grupo | Campos | Como entram |
+|---|---|---|
+| Alvo | `OUT_VEZES`: "ocorreu outras vezes?" | 1 = repetição, 2 = não |
+| Pessoa | `NU_IDADE_N`, `CS_ESCOL_N`, `CS_RACA`, `CS_SEXO`, `SIT_CONJUG`, `DEF_TRANS`, `ORIENT_SEX`, `IDENT_GEN` | idade em anos (código 4xxx); escolaridade de 0 a 8 (9 e 10 viram faltante); categorias em colunas 0/1 |
+| Ocorrência | `HORA_OCOR`, `LOCAL_OCOR` | hora (0–23) e "à noite"; local em colunas 0/1 (residência, via pública, escola, bar…) |
+| Tipo de violência | `VIOL_FISIC`, `VIOL_PSICO`, `VIOL_TORT`, `VIOL_SEXU`, `VIOL_FINAN`, `VIOL_NEGLI`, `VIOL_LEGAL`, `VIOL_OUTR` | sim/ignorado, mais a contagem de tipos |
+| Meio | `AG_FORCA`, `AG_ENFOR`, `AG_OBJETO`, `AG_CORTE`, `AG_QUENTE`, `AG_ENVEN`, `AG_FOGO`, `AG_AMEACA`, `AG_OUTROS` | sim/ignorado |
+| Provável autor | `REL_*` (pai, mãe, padrasto, madrasta, cônjuge, ex, namorado(a), ex, filho, irmão, conhecido, desconhecido, cuidador, patrão, institucional, policial, outros), `AUTOR_SEXO`, `AUTOR_ALCO`, `NUM_ENVOLV`, `CICL_VID` | sim/ignorado; resumos "autor da família" e "autor parceiro(a) ou ex" |
+| Motivação | `VIOL_MOTIV` (sexismo, LGBTfobia, racismo, …) | colunas 0/1 |
+
+São 124 colunas no total.
+
+**Fora do modelo de propósito:** os encaminhamentos (`ENC_*`, `REDE_SAU`, `ASSIST_SOC`, `DELEG*`, `CONS_TUTEL`, `DEFEN_PUBL`…), a evolução (`EVOLUCAO`, `DT_OBITO`) e a classificação final. Eles são decididos depois do atendimento, às vezes justamente porque a violência se repete. Usar esses campos seria dar a resposta ao modelo (vazamento).
+
+## Como gerar de novo
+
+```bash
+python ml/preparar_dados.py
+```
+
+O script baixa os `.dbc` que faltarem para `ml/dados/brutos/` (cerca de 240 MB, fora do Git), converte para `.dbf` com o `pyreaddbc`, filtra o recorte e grava o CSV. Leva uns 10 minutos, porque cada ano tem centenas de milhares de fichas do Brasil inteiro.

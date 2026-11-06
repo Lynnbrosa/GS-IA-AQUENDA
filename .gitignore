@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# arquivos brutos do DATASUS (o Brasil inteiro): baixados pelo ml/preparar_dados.py
+ml/dados/brutos/
